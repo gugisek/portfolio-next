@@ -8,12 +8,13 @@ type Props = {}
 
 export default function TestLanding({}: Props) {
   return (
-    <motion.div
+    <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         exit={{ opacity: 0 }}
+        className="h-screen bg-gray-900"
     >
       test-laning
-      </motion.div>
+    </motion.section>
   )
 }

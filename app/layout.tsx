@@ -1,5 +1,6 @@
 import '../public/globals.css'
 
+
 export default function RootLayout({
   children,
 }: {
