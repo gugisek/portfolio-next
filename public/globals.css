@@ -21,3 +21,16 @@ html {
   font-family: 'Lexend';
   scroll-behavior: smooth;
 }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+    background: #b5b5b5de;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    background-clip: padding-box;
+}
