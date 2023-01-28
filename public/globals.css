@@ -8,6 +8,26 @@
 }
 
 @font-face {
+  font-family: Lexend-light;
+  src: url(/Lexend/static/Lexend-Light.ttf);
+}
+
+@font-face {
+  font-family: Lexend-medium;
+  src: url(/Lexend/static/Lexend-Medium.ttf);
+}
+
+@font-face {
+  font-family: Lexend-bold;
+  src: url(/Lexend/static/Lexend-Bold.ttf);
+}
+
+@font-face {
+  font-family: Lexend-extrabold;
+  src: url(/Lexend/static/Lexend-ExtraBold.ttf);
+}
+
+@font-face {
   font-family: Roboto-normal;
   src: url(/Roboto/Roboto-Regular.ttf);
 }
@@ -18,7 +38,7 @@
 }
 
 html {
-  font-family: 'Lexend';
+  font-family: 'Lexend-light';
   scroll-behavior: smooth;
 }
 
@@ -33,4 +53,33 @@ html {
     border-radius: 10px;
     border: 0px solid transparent;
     background-clip: padding-box;
+}
+
+#hamburger {
+  width: 30px;
+  height: 2px;
+  
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+#hamburger::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+
+}
+
+#hamburger::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  
 }
