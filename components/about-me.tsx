@@ -14,7 +14,7 @@ export default function aboutme({}: Props) {
                 type: "spring",
                 duration: 1
             }}}
-            href='https://www.facebook.com/gugisek.gu/'
+            href='https://github.com/gugisek'
             target={'_blank'}
             ><img src="profile.jpg" alt="profile" className='rounded-full grayscale hover:grayscale-0 hover:shadow-xl transition-all duration-300'/></motion.a>
             <h1 className='text-2xl font-[Lexend-medium] py-2'>Gustaw Sołdecki</h1>
