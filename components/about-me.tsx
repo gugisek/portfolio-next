@@ -17,10 +17,10 @@ export default function aboutme({}: Props) {
             href='https://www.facebook.com/gugisek.gu/'
             target={'_blank'}
             ><img src="profile.jpg" alt="profile" className='rounded-full grayscale hover:grayscale-0 hover:shadow-xl transition-all duration-300'/></motion.a>
-            <h1 className='text-2xl font-medium py-2'>Gustaw Sołdecki</h1>
+            <h1 className='text-2xl font-[Lexend-medium] py-2'>Gustaw Sołdecki</h1>
         </div>
         <motion.div 
-        className='md:w-1/3 w-2/3'
+        className='md:w-1/3 w-2/3 text-xl font-[Roboto-light]'
             initial={{ opacity: 0, x: 100 }}
             whileInView={{ opacity: 1, x: 0, transition: {
                 type: "animate",

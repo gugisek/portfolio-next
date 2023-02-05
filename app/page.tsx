@@ -5,6 +5,7 @@ import Hero from '@components/hero'
 import Skills from '@components/skills'
 import Works from '@components/works'
 import Contact from '@components/contact'
+import Footer from '@components/footer'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Skills />
       <Works />
       <Contact />
+      <Footer />
     </section>
   )
 }

@@ -83,3 +83,15 @@ html {
   transition: all 0.3s ease;
   
 }
+
+#instagram:hover {
+  color: #e1306c;
+}
+
+#facebook:hover {
+  color: #4f77cc;
+}
+
+#github:hover {
+  color: rgb(163, 163, 163);
+}
