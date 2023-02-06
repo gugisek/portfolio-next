@@ -95,3 +95,21 @@ html {
 #github:hover {
   color: rgb(163, 163, 163);
 }
+
+.btn {
+    border-radius: 17px;
+    padding: 14px 47px 14px 55px;
+    box-shadow: inset 0px 0px 0px 0px #00000040, 0px 4px 12px 0px #00000040;
+    background: #D9D9D905;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    gap: 10%;
+}
+.btn:hover {
+    margin-top: 3px;
+    margin-bottom: -3px;
+    cursor: pointer;
+    box-shadow: inset 0px 3px 6px 0px #00000040, 0px 0px 0px 0px #00000040;
+}
