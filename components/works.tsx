@@ -1,4 +1,8 @@
+"use client"
+
 import React from 'react'
+import Post from '@components/post'
+import { motion } from 'framer-motion'
 
 type Props = {}
 
@@ -20,38 +24,25 @@ export default function works({}: Props) {
     github: '',
     image: 'praktyczny-informatyk.pl.png',
     technologies: 'HTML CSS JS PHP'
+  },
+  {
+    name: 'PartyHub',
+    description: "",
+    link: '',
+    github: '',
+    image: 'partyhub.png',
+    technologies: 'figma'
   }
   ]
   return (
     <section id="my-works" className='min-h-screen text-neutral-900 flex flex-col items-center justify-start'>
-        <h1 className='uppercase font-[Lexend-bold] text-5xl text-[#e0e0e0] pb-16'>My projects</h1>
+        <motion.h1 
+        initial={{opacity: 0, y: 100}}
+        whileInView={{opacity: 1, y: 0}}
+        transition={{duration: 0.5}}
+        className='uppercase font-[Lexend-bold] text-5xl text-[#e0e0e0] py-16'>My projects</motion.h1>
         {projects.map((project, index) => (
-          <div className='flex flex-col items-center justify-center w-full'>
-            <div className='flex xl:flex-row flex-col md:w-3/5 sm:w-2/3 w-full sm:px-0 px-6 gap-10 items-center justify-center'>
-              <div className='xl:w-1/2 md:w-1/2 w-full flex items-center justify-center'><img src={project.image} alt={project.name + " image"} className='shadow-2xl rounded-xl max-w-[350px]'/></div>
-              <div className='flex flex-col justify-center xl:w-1/2 md:w-1/2 w-full'>
-                <h1 className='font-[Lexend-bold] text-3xl py-6'>{project.name}</h1>
-                <div className='font-[Lexend]'>
-                  <span dangerouslySetInnerHTML={{__html: project.description}}></span>
-                </div>
-              </div>
-            </div>
-            <div className='flex flex-row gap-4 mt-3'>
-                  {project.link && (
-                  <a href={project.link} className="btn">
-                    website
-                    <img src="website.png" alt="website icon" />
-                  </a>
-                  )}
-                  {project.github && (
-                  <a href={project.github} className="btn">
-                    github
-                    <img src="github.png" alt="github icon" className='w-[20px] h-[20px]'/>
-                  </a>
-                  )}
-                </div>
-            <p className='uppercase text-center py-7 sm:px-0 px-6 text-sm font-[Lexend] text-[#656565]' style={{wordSpacing: '15px'}}>{project.technologies}</p>
-          </div>
+          <Post key={index} name={project.name} description={project.description} link={project.link} github={project.github} image={project.image} technologies={project.technologies}/>
         ))}
 
     </section>

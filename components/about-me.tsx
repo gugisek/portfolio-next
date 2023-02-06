@@ -5,8 +5,8 @@ type Props = {}
 
 export default function aboutme({}: Props) {
   return (
-    <div className='min-h-[60vh] flex md:flex-row flex-col items-center justify-evenly text-neutral-900 md:px-[12%] px-[5%] md:py-0 py-20'>
-        <div className='w-1/3 md:block hidden'>to takie drzewo z rzyciorysem</div>
+    <div id="about-me" className='min-h-[60vh] flex md:flex-row flex-col items-center justify-evenly text-neutral-900 md:px-[12%] px-[5%] md:py-0 py-20'>
+        <div className='w-1/3 md:block hidden'>to takie drzewo z rzyciorysem i jeszcze link do cv fajnego</div>
         <div className='flex justify-center items-center flex-col md:w-1/3 w-2/3'>
             <motion.a
             initial={{ opacity: 0}}
