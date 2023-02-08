@@ -113,3 +113,9 @@ html {
     cursor: pointer;
     box-shadow: inset 0px 3px 6px 0px #00000040, 0px 0px 0px 0px #00000040;
 }
+.skills {
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}

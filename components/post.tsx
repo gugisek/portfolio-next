@@ -20,9 +20,9 @@ export default function post({name, description, link, github, image, technologi
     transition={{duration: 1}}
     className='flex flex-col items-center justify-center w-full'>
             <div className='flex xl:flex-row flex-col md:w-3/5 sm:w-2/3 w-full sm:px-0 px-6 gap-10 items-center justify-center'>
-              <div className='xl:w-1/3 md:w-2/3 w-full flex items-center xl:justify-end justify-center'><img src={image} alt={name + " image"} className='shadow-xl rounded-xl max-w-[350px]'/></div>
-              <div className='flex flex-col justify-center xl:w-1/2 md:w-2/3 w-full'>
-                <h1 className='font-[Lexend-bold] text-3xl py-6'>{name}</h1>
+              <div className='xl:w-2/3 md:w-2/3 w-full flex items-center xl:justify-end justify-center'><img src={image} alt={name + " image"} className='shadow-xl rounded-xl max-w-[350px]'/></div>
+              <div className='flex flex-col justify-center xl:w-3/4 md:w-2/3 w-full'>
+                <h1 className='font-[Lexend-bold] text-3xl pb-6'>{name}</h1>
                 <div className='font-[Lexend]'>
                   <span dangerouslySetInnerHTML={{__html: description}}></span>
                 </div>

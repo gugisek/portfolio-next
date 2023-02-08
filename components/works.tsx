@@ -27,10 +27,18 @@ export default function works({}: Props) {
   },
   {
     name: 'PartyHub',
-    description: "",
+    description: "<p>                App for <span style='color: #ff0000'>party</span> organization in local area.            </p>                <li>fully operative prototype</li>                <li>variants for buttons</li>                <li>projected messenging function</li>                <li>transition animations</li>            <p>                Builded for easy and fast finding new people to party with. Only prototype.            </p>",
     link: '',
     github: '',
     image: 'partyhub.png',
+    technologies: 'figma'
+  },
+  {
+    name: 'AgencyTech.pl',
+    description: '<p>                Website for tech <span style="color: #0097ff">agency</span> with <span style="color: #0097ff">IT</span> services.            </p>                <li>fully operative prototype</li>                <li>variants for buttons</li>                <li>projected customer panel with diffrent sections</li>                <li>widgets in client panel</li>                <li>parallax scrolling efects on sections in home page</li>            <p>                Projected for agency company as platform for menaging services for customers. On this moment only prototype.            </p>',
+    link: '',
+    github: '',
+    image: 'agencytech.pl.png',
     technologies: 'figma'
   }
   ]
