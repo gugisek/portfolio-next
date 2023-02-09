@@ -1,12 +1,20 @@
 'use client'
 import React from 'react'
 import { motion } from 'framer-motion'
+import Tree from '@components/tree'
 type Props = {}
-
 export default function aboutme({}: Props) {
+    const experiances = [
+    {name: 'intership', description: 'helpdesk / serviceman / networker', place: '123i serwis komputerów / Wołomin', year: '2021', month: 'May', duration: '1 month'},
+    ]
   return (
     <div id="about-me" className='min-h-[60vh] flex md:flex-row flex-col items-center justify-evenly text-neutral-900 md:px-[12%] px-[5%] md:py-0 py-20'>
-        <div className='w-1/3 md:block hidden'>to takie drzewo z rzyciorysem i jeszcze link do cv fajnego</div>
+        <section className='w-1/3 md:block hidden'>
+            {experiances.map((experiance, index) => (
+                <Tree key={index} name={experiance.name} description={experiance.description} place={experiance.place} year={experiance.year} month={experiance.month} duration={experiance.duration} />
+            ))}
+            {/* cv jeszcze dodać */}
+        </section>
         <div className='flex justify-center items-center flex-col md:w-1/3 w-2/3'>
             <motion.a
             initial={{ opacity: 0}}

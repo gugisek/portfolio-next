@@ -3,6 +3,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Skill from './skill'
+import Hardware from './hardware'
 
 type Props = {}
 
@@ -33,14 +34,14 @@ export default function skills({}: Props) {
   ]
 
   const hardwares = [
-    {name: 'PC', image: 'pc.png', experience: 'build and repair'},
-    {name: 'Apple iPhone', image: 'iphone.png', experience: 'service and repair'},
-    {name: 'Desktop', image: 'desktop.png' , experience: 'project and build'},
-    {name: 'Leds RGB, aRGB', image: 'leds.png' , experience: 'implementation'},
-    {name: 'Smart home', image: 'smarthome.png' , experience: 'setting up'},
-    {name: 'Soldering', image: 'soldering.png' , experience: 'medium stage'},
-    {name: '3D printing', image: '3dprinting.png'  , experience: 'medium stage'},
-    {name: 'Web and server', image: 'webserver.png' , experience: 'administartion'},
+    {name: 'PC', image: 'pc.png', image_hover: 'pc2.png', experience: 'build and repair'},
+    {name: 'Apple iPhone', image: 'iphone.png', image_hover: '', experience: 'service and repair'},
+    {name: 'Desktop', image: 'desktop.png', image_hover: '', experience: 'project and build'},
+    {name: 'Leds RGB, aRGB', image: 'leds.png', image_hover: '', experience: 'implementation'},
+    {name: 'Smart home', image: 'smarthome.png', image_hover: '', experience: 'setting up'},
+    {name: 'Soldering', image: 'soldering.png', image_hover: '', experience: 'medium stage'},
+    {name: '3D printing', image: '3dprinting.png', image_hover: '', experience: 'medium stage'},
+    {name: 'Web and server', image: 'webserver.png', image_hover: '', experience: 'administartion'},
 
   ]
 
@@ -73,7 +74,7 @@ export default function skills({}: Props) {
         className='w-full h-20 flex items-center justify-center text-5xl font-[Lexend-bold] uppercase text-[#4e4e4e] py-20 text-center'>and my hardware skills</motion.div>
         <div className='flex flex-row flex-wrap gap-8 items-center justify-center px-[10%] pb-8 max-w-[1000px]'>
           {hardwares.map((hardware, index) => (
-              <Skill key={index} name={hardware.name} image={hardware.image} experience={hardware.experience}/>
+              <Hardware key={index} name={hardware.name} image={hardware.image} image_hover={hardware.image_hover} experience={hardware.experience}/>
           ))}
         </div>
         
