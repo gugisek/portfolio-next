@@ -5,11 +5,15 @@ import Tree from '@components/tree'
 type Props = {}
 export default function aboutme({}: Props) {
     const experiances = [
-    {name: 'intership', description: 'helpdesk / serviceman / networker', place: '123i serwis komputerów / Wołomin', year: '2021', month: 'May', duration: '1 month'},
+    {name: 'international intership', description: 'web developer / robot constructor', place: 'Greece Leptocaria', year: '2022', month: 'October', duration: '2 weeks'},
+    {name: 'professional exam', description: 'INF-02 practical 100% / theory 96%', place: 'Zespół szkół nr 14 w Warszawie', year: '2021', month: 'June', duration: ''},
+    {name: 'intership', description: 'helpdesk / serviceman / networker', place: '123i serwis komputerów / Wołomin', year: '2021', month: 'May', duration: '1 month'}
+    
+    
     ]
   return (
-    <div id="about-me" className='min-h-[60vh] flex md:flex-row flex-col items-center justify-evenly text-neutral-900 md:px-[12%] px-[5%] md:py-0 py-20'>
-        <section className='w-1/3 md:block hidden'>
+    <div id="about-me" className='min-h-[60vh] flex md:flex-row flex-col items-center justify-evenly text-neutral-900 md:px-[8%] px-[5%] md:py-0 py-20'>
+        <section className='w-1/3 md:block hidden overflow-y-scroll h-[30vh]'>
             {experiances.map((experiance, index) => (
                 <Tree key={index} name={experiance.name} description={experiance.description} place={experiance.place} year={experiance.year} month={experiance.month} duration={experiance.duration} />
             ))}
