@@ -46,6 +46,7 @@ html {
     width: 5px;
     height: 7px;
     background: #b5b5b5de;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {

@@ -16,13 +16,8 @@ export default function Navbar({}: Props) {
 
   return (
     <motion.section
-        initial={{ opacity: 0, y: -100 }}
-        animate={{ opacity: 1, y: 0, transition: {
-            type: "spring",
-            duration: 1
-        }}}
-        exit={{ opacity: 0, y: -100, transition: {
-            type: "spring",
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, transition: {
             duration: 1
         }}}
         className='w-full absolute z-50'
@@ -56,11 +51,9 @@ export default function Navbar({}: Props) {
                     onClick={() => setActive(!active)}
                     initial={{ opacity: 0}}
                     whileInView={{ opacity: 1, transition: {
-                        type: "spring",
                         duration: 0.5
                     }}}
                     exit={{ opacity: 0, transition: {
-                        type: "spring",
                         duration: 0.5
                     }}}
                     >

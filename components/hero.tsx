@@ -7,7 +7,7 @@ type Props = {}
 
 export default function hero({}: Props) {
   return (
-    <section style={{backgroundImage: 'url(bg.jpg)', backgroundPositionY:'44%', backgroundPositionX: 'center'}} className='bg-cover'>    
+    <section style={{backgroundImage: 'url(bg2.jpg)', backgroundPositionY:'44%', backgroundPositionX: 'center'}} className='bg-cover'>    
         <section className='min-h-screen text-neutral-900 flex justify-center items-center bg-cover flex-col' >
             <motion.div 
             className='font-[Roboto-normal]'
