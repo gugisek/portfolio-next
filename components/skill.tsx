@@ -18,20 +18,16 @@ export default function skill({name, image, experience}: Props) {
     transition={{duration: 0.5}}
     className='flex flex-col items-center justify-center' 
     onMouseEnter={() => setHover(true)}
-    onMouseLeave={() => setHover(false)}>
+    onMouseLeave={() => setHover(false)}
+    onClick={() => setHover(!hover)}>
+        
         <div className='skills sm:w-[150px] w-[100px] sm:h-[150px] h-[100px] flex items-center justify-center flex-col'>
             <img src={image} alt={image + " icon"} className='sm:w-[100px] w-[70px]'/>
         </div>
-        {hover ? (
-            <motion.p 
-            whileInView={{opacity: 1}}
-            initial={{opacity: 0}}
-            transition={{duration: 1}}
-            className='py-4 font-[Lexend-bold]'>{experience}</motion.p>
-        ) : (
-            <p 
-            className='py-4 font-[Lexend-bold]'>{name}</p>
-        )}
+        <div className='flex items-center justify-center flex-row'>
+            <p className={`py-4 font-[Lexend-bold] transition-all duration-300 ${hover ? 'opacity-100' : 'opacity-0 absolute'}`}>{experience}</p>
+            <p className={`py-4 font-[Lexend-bold] transition-all duration-300 ${hover ? 'opacity-0 absolute' : 'opacity-100'}`}>{name}</p>
+       </div>
         
     </motion.div>
   )
