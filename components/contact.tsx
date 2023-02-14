@@ -8,9 +8,9 @@ type Props = {}
 
 export default function contact({}: Props) {
   const socials = [
-    {name: 'instagram', link: 'https://www.instagram.com/gugisek/'},
+    {name: 'instagram', link: 'https://www.instagram.com/gugisek_foto/'},
     {name: 'facebook', link: 'https://www.facebook.com/gugisek.gu/'},
-    {name: 'github', link: 'htttps://github.com/gugisek'},
+    {name: 'github', link: 'https://github.com/gugisek'},
   ]
   return (
     <section id="contact" className='text-neutral-900 font-[Lexend]'>

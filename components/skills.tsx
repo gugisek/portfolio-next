@@ -35,13 +35,13 @@ export default function skills({}: Props) {
 
   const hardwares = [
     {name: 'PC', image: 'pc.png', image_hover: 'pc2.png', experience: 'build and repair'},
-    {name: 'Apple iPhone', image: 'iphone.png', image_hover: '', experience: 'service and repair'},
-    {name: 'Desktop', image: 'desktop.png', image_hover: '', experience: 'project and build'},
-    {name: 'Leds RGB, aRGB', image: 'leds.png', image_hover: '', experience: 'implementation'},
-    {name: 'Smart home', image: 'smarthome.png', image_hover: '', experience: 'setting up'},
-    {name: 'Soldering', image: 'soldering.png', image_hover: '', experience: 'medium stage'},
-    {name: '3D printing', image: '3dprinting.png', image_hover: '', experience: 'entry stage'},
-    {name: 'Web and server', image: 'webserver.png', image_hover: '', experience: 'administartion'},
+    {name: 'Apple iPhone', image: 'iphone.png', image_hover: 'iphone2.jpg', experience: 'service and repair'},
+    {name: 'Desktop', image: 'desktop2.jpg', image_hover: 'desktop.png', experience: 'project and build'},
+    {name: 'Leds RGB, aRGB', image: 'leds.jpg', image_hover: 'leds3.jpg', experience: 'implementation'},
+    {name: 'Smart home', image: 'smarthome3.JPG', image_hover: 'smarthome2.JPG', experience: 'setting up'},
+    {name: 'Soldering', image: 'soldering2.JPG', image_hover: 'soldering.JPG', experience: 'medium stage'},
+    {name: '3D printing', image: '3dprinting4.JPG', image_hover: '3dprinting.JPG', experience: 'entry stage'},
+    {name: 'Web and server', image: 'webserver2.jpg', image_hover: 'webserver3.jpg', experience: 'administartion'},
 
   ]
 
