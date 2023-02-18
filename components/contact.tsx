@@ -29,7 +29,7 @@ export default function contact({}: Props) {
                     type: "animate",
                     duration: 1
               }}}
-              src="profile.jpg" alt="profile" className='rounded-full shadow-2xl' />
+              src="img/profile.jpg" alt="profile" className='rounded-full shadow-2xl' />
               <motion.div 
                 initial={{ opacity: 0, x: 100 }}
                 whileInView={{ opacity: 1, x: 0, transition: {
@@ -40,7 +40,7 @@ export default function contact({}: Props) {
                 <div className='flex flex-row md:gap-9 gap-2 flex-wrap'>
                 {socials.map((social, index) => (
                   <div className='flex flex-row items-center justify-center'>
-                    <img src={social.name + ".png"} alt={social.name + "icon"} className='w-[25px] mr-3'/>
+                    <img src={"img/buttons/"+social.name + ".png"} alt={social.name + "icon"} className='w-[25px] mr-3'/>
                       <a key={index} href={social.link} target="_blank" className="uppercase transition-all duration-300" id={social.name}>{social.name}</a>
                   </div>
                 ))}
@@ -51,13 +51,13 @@ export default function contact({}: Props) {
                     <p className='text-xl font-[Lexend-bold] m-0 p-0 mt-[-6px]'>Gustaw Sołdecki</p>
                   </div>
                   <div className='flex flex-row items-center justify-center'>
-                    <img src="location.png" alt="location icon" className='w-[30px] mr-3'/>
-                    <a href='https://www.google.pl/maps/@52.2507275,21.0377675,11.34z' target="_blank">Warsaw, Poland</a>
+                    <img src="img/buttons/location.png" alt="location icon" className='w-[30px] mr-3'/>
+                    <a href='https://www.google.pl/maps/@52.2507275,21.0377675,11.34z' target="_blank" className='hover:text-gray-400 transition-all duration-300'>Warsaw, Poland</a>
                   </div>
                 </div>
                 <div className='flex flex-row items-center justify-start'>
-                  <img src="gmail.png" alt="gmail icon" className='w-[35px] mr-3'/>
-                  <a href="mailto:gugisek@gmail.com">gugisek@gmail.com</a>
+                  <img src="img/buttons/gmail.png" alt="gmail icon" className='w-[35px] mr-3'/>
+                  <a href="mailto:gugisek@gmail.com" className='hover:text-blue-400 transition-all duration-300'>gugisek@gmail.com</a>
                 </div>
               </motion.div>
             </div>

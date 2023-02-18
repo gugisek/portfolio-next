@@ -10,27 +10,27 @@ type Props = {}
 export default function skills({}: Props) {
 
   const skills = [
-    {name: 'HTML', image: 'html.svg', experience: '4 years'},
-    {name: 'CSS', image: 'css.svg', experience: '4 years'},
-    {name: 'PHP', image: 'php.svg' , experience: '3 years'},
-    {name: 'MySQL', image: 'mysql.png' , experience: '3 years'},
-    {name: 'JavaScript', image: 'javascript.png' , experience: '2 years'},
-    {name: 'React', image: 'react.png'  , experience: '3 months'},
-    {name: 'Next.js', image: 'next.png' , experience: '3 months'},
-    {name: 'Tailwind CSS', image: 'tailwindcss.png' , experience: '3 months'},
-    {name: 'Framer Motion', image: 'framer-motion.svg' , experience: '1 month'},
+    {name: 'HTML', image: 'img/skills/langs/html.svg', experience: '4 years'},
+    {name: 'CSS', image: 'img/skills/langs/css.svg', experience: '4 years'},
+    {name: 'PHP', image: 'img/skills/langs/php.svg' , experience: '3 years'},
+    {name: 'MySQL', image: 'img/skills/langs/mysql.png' , experience: '3 years'},
+    {name: 'JavaScript', image: 'img/skills/langs/javascript.png' , experience: '2 years'},
+    {name: 'React', image: 'img/skills/langs/react.png'  , experience: '3 months'},
+    {name: 'Next.js', image: 'img/skills/langs/next.png' , experience: '3 months'},
+    {name: 'Tailwind CSS', image: 'img/skills/langs/tailwindcss.png' , experience: '3 months'},
+    {name: 'Framer Motion', image: 'img/skills/langs/framer-motion.svg' , experience: '1 month'},
   ]
 
   const apps = [
-    {name: 'VS Code', image: 'vscode.png', experience: '3 years'},
-    {name: 'Adobe PremiePro', image: 'premierepro.png', experience: '3 years'},
-    {name: 'Gimp', image: 'gimp.png' , experience: '6 years'},
-    {name: 'Figma', image: 'figma.webp' , experience: '1 year'},
-    {name: 'SkechtUp', image: 'sketchup.png' , experience: '8 years'},
-    {name: 'Wordpress', image: 'wordpress.png' , experience: '3 years'},
-    {name: 'Git', image: 'git.png'  , experience: '3 months'},
-    {name: 'Github', image: 'github2.png' , experience: '3 months'},
-    {name: 'Termius', image: 'termius.svg' , experience: '1 month'},
+    {name: 'VS Code', image: 'img/skills/programs/vscode.png', experience: '3 years'},
+    {name: 'Adobe PremiePro', image: 'img/skills/programs/premierepro.png', experience: '3 years'},
+    {name: 'Gimp', image: 'img/skills/programs/gimp.png' , experience: '6 years'},
+    {name: 'Figma', image: 'img/skills/programs/figma.webp' , experience: '1 year'},
+    {name: 'SkechtUp', image: 'img/skills/programs/sketchup.png' , experience: '8 years'},
+    {name: 'Wordpress', image: 'img/skills/programs/wordpress.png' , experience: '3 years'},
+    {name: 'Git', image: 'img/skills/programs/git.png'  , experience: '3 months'},
+    {name: 'Github', image: 'img/skills/programs/github2.png' , experience: '3 months'},
+    {name: 'Termius', image: 'img/skills/programs/termius.svg' , experience: '1 month'},
   ]
 
   const hardwares = [
@@ -41,7 +41,7 @@ export default function skills({}: Props) {
     {name: 'Smart home', image: 'smarthome3.JPG', image_hover: 'smarthome2.JPG', experience: 'setting up'},
     {name: 'Soldering', image: 'soldering2.JPG', image_hover: 'soldering.JPG', experience: 'medium stage'},
     {name: '3D printing', image: '3dprinting4.JPG', image_hover: '3dprinting.JPG', experience: 'entry stage'},
-    {name: 'Web and server', image: 'webserver2.jpg', image_hover: 'webserver3.jpg', experience: 'administartion'},
+    {name: 'Web and server', image: 'webserver2.jpg', image_hover: 'webserver3.jpg', experience: 'administration'},
 
   ]
 

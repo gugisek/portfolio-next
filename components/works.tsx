@@ -14,8 +14,8 @@ export default function works({}: Props) {
     description: "<p>Gaming shop fully customized <span style='color: #7b02ff'>woocomerce</span> shematic</p>                <li>fully working product pages</li>                <li>avaible variants</li>                <li>zooming photos</li>                <li>modernistic arhive style </li>            <p>                Promo codes and direct pay via <span style='color: #3013E1'>Gpay</span> and <span style='color: #000'>Apple Pay</span>                <br>                Working paynaments via <span style='color: #35A5E4'>PayPal</span> and <span style='color: #BE06FF'>Stripe</span>                <br>                Different shipping methods even <span style='color: #C99612'>InPost Paczkomat</span>           </p>",
     link: 'https://www.rgbpc.pl',
     github: '',
-    image1: 'rgbpc.png',
-    image2: 'rgbpc2.png',
+    image1: 'rgbpc1.png',
+    image2: 'rgbpc4.png',
     image3: 'rgbpc3.png',
     technologies: 'HTML CSS JS PHP MySQL Wordpress Linux'
   },
@@ -41,12 +41,12 @@ export default function works({}: Props) {
   },
   {
     name: 'AgencyTech.pl',
-    description: '<p>                Website for tech <span style="color: #0097ff">agency</span> with <span style="color: #0097ff">IT</span> services.            </p>                <li>fully operative prototype</li>                <li>variants for buttons</li>                <li>projected customer panel with diffrent sections</li>                <li>widgets in client panel</li>                <li>parallax scrolling efects on sections in home page</li>            <p>                Projected for agency company as platform for menaging services for customers. On this moment only prototype.            </p>',
+    description: '<p>                Website for tech <span style="color: #0097ff">agency</span> with <span style="color: #0097ff">IT</span> services.            </p>                <li>fully operative prototype</li>                <li>variants for buttons</li>                <li>projected customer panel with diffrent sections</li>                <li>widgets in client panel</li>                <li>parallax scrolling efects on sections in home page</li>',
     link: '',
     github: '',
-    image1: 'agencytech.pl.png',
-    image2: 'agencytech.pl2.png',
-    image3: 'agencytech.pl3.png',
+    image1: 'at4.png',
+    image2: 'at2.png',
+    image3: 'at3.png',
     technologies: 'figma'
   }
   ]

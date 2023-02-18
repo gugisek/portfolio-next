@@ -27,9 +27,9 @@ export default function post({name, description, link, github, image1, image2, i
             <div className='flex xl:flex-row flex-col md:w-3/5 sm:w-2/3 w-full sm:px-0 px-6 gap-10 items-center justify-center mt-3'>
               <div className='xl:w-4/5 md:w-2/3 w-full max-w-[350px] flex flex-col items-center xl:justify-end justify-center'>
                 <div className='flex items-center justify-center'>
-                  <img id="slides" src={image1} alt={name + " image"} className={`${slideActive==0 ? 'opacity-100' : 'opacity-0 absolute'} shadow-xl rounded-xl max-w-[350px] z-0`}/>
-                  <img id="slides" src={image2} alt={name + " image"} className={`${slideActive==1 ? 'opacity-100' : 'opacity-0 absolute'} shadow-xl rounded-xl max-w-[350px] z-0`}/>
-                  <img id="slides" src={image3} alt={name + " image"} className={`${slideActive==2 ? 'opacity-100' : 'opacity-0 absolute'} shadow-xl rounded-xl max-w-[350px] z-0`}/>
+                  <img id="slides" src={"img/posts/"+image1} alt={name + " image"} className={`${slideActive==0 ? 'opacity-100' : 'opacity-0 absolute'} shadow-xl rounded-xl max-w-[350px] z-0`}/>
+                  <img id="slides" src={"img/posts/"+image2} alt={name + " image"} className={`${slideActive==1 ? 'opacity-100' : 'opacity-0 absolute'} shadow-xl rounded-xl max-w-[350px] z-0`}/>
+                  <img id="slides" src={"img/posts/"+image3} alt={name + " image"} className={`${slideActive==2 ? 'opacity-100' : 'opacity-0 absolute'} shadow-xl rounded-xl max-w-[350px] z-0`}/>
                 </div>
                 <div className='flex felx-row z-10 mt-[-5px]'>
                   <div>
@@ -55,12 +55,12 @@ export default function post({name, description, link, github, image1, image2, i
                   <span className='flex flex-row'>
                     {link && (
                     <a href={link} className="btnMini flex items-center justify-center p-2 mx-2" target='_blank'>
-                      <img src="website.png" alt="website icon" className='w-[20px] h-[20px]'/>
+                      <img src="img/buttons/website.png" alt="website icon" className='w-[20px] h-[20px]'/>
                     </a>
                     )}
                     {github && (
                     <a href={github} className="btnMini flex items-center justify-center p-2 mx-2" target='_blank'>
-                      <img src="github.png" alt="github icon" className='w-[20px] h-[20px]'/>
+                      <img src="img/buttons/github.png" alt="github icon" className='w-[20px] h-[20px]'/>
                     </a>
                     )}
                   </span>
