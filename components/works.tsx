@@ -23,7 +23,7 @@ export default function works({}: Props) {
     name: 'praktyczny-informatyk.pl',
     description: "<p>                Website with <span style='color: #d800ff'>tutorials</span> for practical exams for IT.            </p>                <li>working search bar</li>                <li>sorting elements by date</li>                <li>download files from server</li>            <p>                Builded on subsites and folder with elements as objects in list on site.            </p>",
     link: 'https://www.praktyczny-informatyk.pl',
-    github: '',
+    github: 'https://github.com/gugisek/praktyczny-informatyk.pl',
     image1: 'praktyczny-informatyk.pl.png',
     image2: 'praktyczny-informatyk.pl2.png',
     image3: 'praktyczny-informatyk.pl3.png',
