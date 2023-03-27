@@ -15,10 +15,10 @@ export default function skills({}: Props) {
     {name: 'PHP', image: 'img/skills/langs/php.svg' , experience: '3 years'},
     {name: 'MySQL', image: 'img/skills/langs/mysql.png' , experience: '3 years'},
     {name: 'JavaScript', image: 'img/skills/langs/javascript.png' , experience: '2 years'},
-    {name: 'React', image: 'img/skills/langs/react.png'  , experience: '3 months'},
-    {name: 'Next.js', image: 'img/skills/langs/next.png' , experience: '3 months'},
-    {name: 'Tailwind CSS', image: 'img/skills/langs/tailwindcss.png' , experience: '3 months'},
-    {name: 'Framer Motion', image: 'img/skills/langs/framer-motion.svg' , experience: '1 month'},
+    {name: 'React', image: 'img/skills/langs/react.png'  , experience: '5 months'},
+    {name: 'Next.js', image: 'img/skills/langs/next.png' , experience: '5 months'},
+    {name: 'Tailwind CSS', image: 'img/skills/langs/tailwindcss.png' , experience: '5 months'},
+    {name: 'Framer Motion', image: 'img/skills/langs/framer-motion.svg' , experience: '3 month'},
   ]
 
   const apps = [
@@ -27,10 +27,11 @@ export default function skills({}: Props) {
     {name: 'Gimp', image: 'img/skills/programs/gimp.png' , experience: '6 years'},
     {name: 'Figma', image: 'img/skills/programs/figma.webp' , experience: '1 year'},
     {name: 'SkechtUp', image: 'img/skills/programs/sketchup.png' , experience: '8 years'},
+    {name: 'Ultimaker Cura', image: 'img/skills/programs/cura.png' , experience: '3 months'},
     {name: 'Wordpress', image: 'img/skills/programs/wordpress.png' , experience: '3 years'},
-    {name: 'Git', image: 'img/skills/programs/git.png'  , experience: '3 months'},
-    {name: 'Github', image: 'img/skills/programs/github2.png' , experience: '3 months'},
-    {name: 'Termius', image: 'img/skills/programs/termius.svg' , experience: '1 month'},
+    {name: 'Git', image: 'img/skills/programs/git.png'  , experience: '5 months'},
+    {name: 'Github', image: 'img/skills/programs/github2.png' , experience: '5 months'},
+    {name: 'Termius', image: 'img/skills/programs/termius.svg' , experience: '3 month'},
   ]
 
   const hardwares = [
