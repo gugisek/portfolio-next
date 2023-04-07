@@ -47,7 +47,7 @@ export default function Contact({}: Props) {
                 </div>
                 <div className='flex flex-row md:gap-9 gap-2 items-center flex-wrap'>
                   <div>
-                    <p className='m-0 p-0'>18&aposth year old</p>
+                    <p className='m-0 p-0'>18&apos;th year old</p>
                     <p className='text-xl font-[Lexend-bold] m-0 p-0 mt-[-6px]'>Gustaw Sołdecki</p>
                   </div>
                   <div className='flex flex-row items-center justify-center'>

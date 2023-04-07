@@ -16,7 +16,7 @@ export default function Hero({}: Props) {
             exit={{ opacity: 0 }}
             >
                 <p className='text-2xl font-[Roboto-light]'>Hi</p>
-                <h1 className='text-4xl'>I&aposm Gustawo</h1>
+                <h1 className='text-4xl'>I&apos;m Gustawo</h1>
             </motion.div>
             <motion.div 
             className='absolute bottom-8 font-light'
