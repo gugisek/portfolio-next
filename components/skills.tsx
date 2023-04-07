@@ -36,7 +36,7 @@ export default function skills({}: Props) {
 
   const hardwares = [
     {name: 'PC', image: 'pc.png', image_hover: 'pc2.png', experience: 'build and repair'},
-    {name: 'Apple iPhone', image: 'iphone.png', image_hover: 'iphone2.jpg', experience: 'service and repair'},
+    {name: 'Apple iPhone', image: 'iPhone.png', image_hover: 'iphone2.jpg', experience: 'service and repair'},
     {name: 'Desktop', image: 'desktop2.jpg', image_hover: 'desktop.png', experience: 'project and build'},
     {name: 'Leds RGB, aRGB', image: 'leds.jpg', image_hover: 'leds3.jpg', experience: 'implementation'},
     {name: 'Smart home', image: 'smarthome3.JPG', image_hover: 'smarthome2.JPG', experience: 'setting up'},
