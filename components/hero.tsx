@@ -5,7 +5,7 @@ import React from 'react'
 
 type Props = {}
 
-export default function hero({}: Props) {
+export default function Hero({}: Props) {
   return (
     <section style={{backgroundImage: 'url(img/bg2.jpg)', backgroundPositionY:'44%', backgroundPositionX: 'center'}} className='bg-cover'>    
         <section className='min-h-screen text-neutral-900 flex justify-center items-center bg-cover flex-col' >
@@ -16,7 +16,7 @@ export default function hero({}: Props) {
             exit={{ opacity: 0 }}
             >
                 <p className='text-2xl font-[Roboto-light]'>Hi</p>
-                <h1 className='text-4xl'>I'm Gustawo</h1>
+                <h1 className='text-4xl'>I&aposm Gustawo</h1>
             </motion.div>
             <motion.div 
             className='absolute bottom-8 font-light'
