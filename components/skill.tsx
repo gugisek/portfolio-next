@@ -7,7 +7,7 @@ type Props = {
     experience: string
 }
 
-export default function skill({name, image, experience}: Props) {
+export default function Skill({name, image, experience}: Props) {
     
     const [hover, setHover] = React.useState(false)
 

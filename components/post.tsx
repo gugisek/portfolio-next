@@ -54,12 +54,12 @@ export default function post({name, description, link, github, image1, image2, i
                   {name}
                   <span className='flex flex-row gap-2'>
                     {link && (
-                    <a href={link} className="btnMini flex items-center justify-center min-w-[40px] min-h-[40px]" target='_blank'>
+                    <a href={link} className="btnMini flex items-center justify-center min-w-[40px] min-h-[40px]" target='_blank' rel="noreferrer">
                       <img src="img/buttons/website.png" alt="website icon" className='w-[20px] h-[20px]'/>
                     </a>
                     )}
                     {github && (
-                    <a href={github} className="btnMini flex items-center justify-center min-w-[40px] min-h-[40px]" target='_blank'>
+                    <a href={github} className="btnMini flex items-center justify-center min-w-[40px] min-h-[40px]" target='_blank' rel="noreferrer">
                       <img src="img/buttons/github.png" alt="github icon" className='w-[20px] h-[20px]'/>
                     </a>
                     )}

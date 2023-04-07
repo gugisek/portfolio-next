@@ -41,7 +41,7 @@ export default function contact({}: Props) {
                 {socials.map((social, index) => (
                   <div className='flex flex-row items-center justify-center'>
                     <img src={"img/buttons/"+social.name + ".png"} alt={social.name + "icon"} className='w-[25px] mr-3'/>
-                      <a key={index} href={social.link} target="_blank" className="uppercase transition-all duration-300" id={social.name}>{social.name}</a>
+                      <a key={index} href={social.link} target="_blank" rel="noreferrer" className="uppercase transition-all duration-300" id={social.name}>{social.name}</a>
                   </div>
                 ))}
                 </div>
