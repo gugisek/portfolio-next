@@ -6,7 +6,7 @@ import { type } from 'os'
 
 type Props = {}
 
-export default function contact({}: Props) {
+export default function Contact({}: Props) {
   const socials = [
     {name: 'instagram', link: 'https://www.instagram.com/gugisek_foto/'},
     {name: 'facebook', link: 'https://www.facebook.com/gugisek.gu/'},
@@ -39,8 +39,8 @@ export default function contact({}: Props) {
               className='flex flex-col gap-2 md:px-1 px-8'>
                 <div className='flex flex-row md:gap-9 gap-2 flex-wrap'>
                 {socials.map((social, index) => (
-                  <div className='flex flex-row items-center justify-center'>
-                    <img src={"img/buttons/"+social.name + ".png"} alt={social.name + "icon"} className='w-[25px] mr-3'/>
+                  <div key={index}  className='flex flex-row items-center justify-center'>
+                    <img key={index}  src={"img/buttons/"+social.name + ".png"} alt={social.name + "icon"} className='w-[25px] mr-3'/>
                       <a key={index} href={social.link} target="_blank" rel="noreferrer" className="uppercase transition-all duration-300" id={social.name}>{social.name}</a>
                   </div>
                 ))}

@@ -33,7 +33,7 @@ export default function Navbar({}: Props) {
             </div>
             <div className='flex-row gap-10 text-2xl font-light hidden md:flex'>
                 {links2.map((link, index) => (
-                    <a href={link.href} className='hover:text-white hover:drop-shadow-xl transition-all duration-300'>{link.name}</a>
+                    <a href={link.href} key={index} className='hover:text-white hover:drop-shadow-xl transition-all duration-300'>{link.name}</a>
                 ))}
             </div>
             <div className='flex md:hidden z-10'>

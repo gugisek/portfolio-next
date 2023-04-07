@@ -14,7 +14,7 @@ type Props = {
     technologies: string
 }
 
-export default function post({name, description, link, github, image1, image2, image3, technologies}: Props) {
+export default function Post({name, description, link, github, image1, image2, image3, technologies}: Props) {
 
   const [slideActive, setSlideActive] = React.useState(0)
 
