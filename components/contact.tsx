@@ -52,7 +52,7 @@ export default function contact({}: Props) {
                   </div>
                   <div className='flex flex-row items-center justify-center'>
                     <img src="img/buttons/location.png" alt="location icon" className='w-[30px] mr-3'/>
-                    <a href='https://www.google.pl/maps/@52.2507275,21.0377675,11.34z' target="_blank" className='hover:text-gray-400 transition-all duration-300'>Warsaw, Poland</a>
+                    <a href='https://www.google.pl/maps/@52.2507275,21.0377675,11.34z' target="_blank" rel="noreferrer" className='hover:text-gray-400 transition-all duration-300'>Warsaw, Poland</a>
                   </div>
                 </div>
                 <div className='flex flex-row items-center justify-start'>
