@@ -50,7 +50,7 @@ export default function works({}: Props) {
     technologies: 'figma'
   },
   {
-    name: 'Laptop DIY',
+    name: 'DIY laptop',
     description: '<p>Created for personal usage from used ASUS. <br>Fully mapped phisical parts of old laptop. <br>Projected all body parts with supports and later <span style="color: #c1714c">3D printed</span>.<br>On end covered with suede.</p> <br><p style="color: #9d9d9d">Time spent: 4 weeks</p>',
     link: '',
     github: '',
