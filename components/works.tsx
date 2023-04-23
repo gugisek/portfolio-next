@@ -30,6 +30,26 @@ export default function works({}: Props) {
     technologies: 'HTML CSS JS PHP'
   },
   {
+    name: 'DIY laptop',
+    description: '<p>Created for personal usage from used ASUS. <br>Fully mapped phisical parts of old laptop. <br>Projected all body parts with supports and later <span style="color: #c1714c">3D printed</span>.<br>On end covered with suede.</p> <br><p style="color: #9d9d9d">Time spent: 4 weeks</p>',
+    link: '',
+    github: '',
+    image1: 'laptop1.jpg',
+    image2: 'laptop2.jpg',
+    image3: 'laptop3.jpg',
+    technologies: 'sketchup Ultimaker-Cura 3D-printer',
+  },
+  {
+    name: 'School profile page',
+    description: '<p>Fully builded and projected by me <span style="color: #34ad51">in 4 days</span> for school open days. Simple one page website with big hero section. Each element has animations from framer motion. <br/>Coded section by section. The idea for design is 100% mine.</p>',
+    link: 'https://zs14.praktyczny-informatyk.pl/',
+    github: 'https://github.com/gugisek/zs14-technik-inf',
+    image1: 'zs14.png',
+    image2: 'zs142.png',
+    image3: 'zs143.png',
+    technologies: 'next.js react.js tailwindcss framer-motion',
+  },
+  {
     name: 'PartyHub',
     description: "<p>                App for <span style='color: #ff0000'>party</span> organization in local area.            </p>                <li>fully operative prototype</li>                <li>variants for buttons</li>                <li>projected messenging function</li>                <li>transition animations</li>            <p>                Builded for easy and fast finding new people to party with. Only prototype.            </p>",
     link: '',
@@ -49,16 +69,7 @@ export default function works({}: Props) {
     image3: 'at3.png',
     technologies: 'figma'
   },
-  {
-    name: 'DIY laptop',
-    description: '<p>Created for personal usage from used ASUS. <br>Fully mapped phisical parts of old laptop. <br>Projected all body parts with supports and later <span style="color: #c1714c">3D printed</span>.<br>On end covered with suede.</p> <br><p style="color: #9d9d9d">Time spent: 4 weeks</p>',
-    link: '',
-    github: '',
-    image1: 'laptop1.jpg',
-    image2: 'laptop2.jpg',
-    image3: 'laptop3.jpg',
-    technologies: 'sketchup Ultimaker-Cura 3D-printer',
-  }
+ 
   ]
   return (
     <section id="my-works" className='min-h-screen text-neutral-900 flex flex-col items-center justify-start pb-7'>
