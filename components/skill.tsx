@@ -21,7 +21,7 @@ export default function Skill({name, image, experience}: Props) {
     onMouseLeave={() => setHover(false)}
     onClick={() => setHover(!hover)}>
         
-        <div className='skills sm:w-[150px] w-[100px] sm:h-[150px] h-[100px] flex items-center justify-center flex-col'>
+        <div className='skills sm:w-[150px] w-[140px] sm:h-[150px] h-[140px] flex items-center justify-center flex-col'>
             <img src={image} alt={image + " icon"} className='sm:w-[100px] w-[70px]'/>
         </div>
         <div className='flex items-center justify-center flex-row'>

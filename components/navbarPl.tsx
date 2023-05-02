@@ -9,9 +9,9 @@ export default function Navbar({}: Props) {
     const [active, setActive] = React.useState(false);
 
     const links2 = [
-        {name: 'about me', href: '#about-me'},
-        {name: 'my works', href: '#my-works'},
-        {name: 'contact', href: '#contact'},
+        {name: 'o mnie', href: '#o-mnie'},
+        {name: 'projekty', href: '#projekty'},
+        {name: 'kontakt', href: '#kontakt'},
    ];
 
   return (

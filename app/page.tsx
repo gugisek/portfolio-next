@@ -1,16 +1,11 @@
-import Image from 'next/image'
-import TestLanding from '@components/test-landing'
-import Navbar from '@components/navbar'
-import Hero from '@components/hero'
-import Skills from '@components/skills'
-import Works from '@components/works'
-import Contact from '@components/contact'
-import Footer from '@components/footer'
+"use client"
+
+import { NavBar, Hero, Skills, Works, Contact, Footer } from '@components'
 
 export default function Home() {
   return (
     <section className='text-white overflow-x-hidden'>
-      <Navbar />
+      <NavBar />
       <Hero />
       <Skills />
       <Works />

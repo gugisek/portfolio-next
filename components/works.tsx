@@ -47,7 +47,7 @@ export default function works({}: Props) {
     image1: 'zs14.png',
     image2: 'zs142.png',
     image3: 'zs143.png',
-    technologies: 'next.js react.js tailwindcss framer-motion',
+    technologies: 'next.js react.js tailwindcss framer-motion figma',
   },
   {
     name: 'PartyHub',
