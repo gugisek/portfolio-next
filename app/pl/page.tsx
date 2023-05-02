@@ -7,7 +7,7 @@ export default function Pl() {
     
     <section className='text-white overflow-x-hidden'>
       <head>
-        <title>GuGiSeK - pasjonat komputerów</title>
+        <title>GuGiSeK - pasjonat branży IT</title>
       </head>
       <div>
         <NavBarPl />
