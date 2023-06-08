@@ -6,6 +6,7 @@ type Props = {}
 export default function aboutme({}: Props) {
     const experiances = [
     {name: 'intership', description: 'serviceman', place: 'Jablkowy - Apple Authorized Service', year: '2023', month: 'May', duration: '1 month'},
+    {name: 'CISCO certificate', description: 'Introduction to Cybersecurity', place: 'Cisco Computer Networking Academy', year: '2022', month: 'November', duration: ''},
     {name: 'international intership', description: 'web developer / robot constructor', place: 'Greece Leptocaria', year: '2022', month: 'October', duration: '2 weeks'},
     {name: 'professional exam', description: 'INF-02 practical 100% / theory 96%', place: 'Zespół szkół nr 14 w Warszawie', year: '2022', month: 'June', duration: ''},
     {name: 'intership', description: 'helpdesk / serviceman / networker', place: '123i serwis komputerów / Wołomin', year: '2022', month: 'May', duration: '1 month'},
