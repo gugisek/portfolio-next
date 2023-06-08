@@ -30,7 +30,7 @@ export default function Hero({}: Props) {
                 duration: 1
             }}}
             >
-                <a href='#about-me' className='hover:text-white transition-all duration-300'>scrolluj w dół</a>
+                <a href='#o-mnie' className='hover:text-white transition-all duration-300'>scrolluj w dół</a>
             </motion.div>
         </section>
         <AboutMePl/>
