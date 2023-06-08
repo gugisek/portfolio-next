@@ -5,6 +5,7 @@ import Tree from '@components/tree'
 type Props = {}
 export default function aboutme({}: Props) {
     const experiances = [
+    {name: 'Praktyki', description: 'serwisant', place: 'Jabłkowy - Autoryzowany Serwis Apple', year: '2023', month: 'Maj', duration: '1 miesiąc'},
     {name: 'Międzynarodowe praktyki', description: 'web developer / robot constructor', place: 'Grecja Leptocaria', year: '2022', month: 'Październik', duration: '2 tygodnie'},
     {name: 'Egzamin kwalifikacyjny', description: 'INF-02 praktyczny 100% / teoria 96%', place: 'Zespół szkół nr 14 w Warszawie', year: '2022', month: 'Czerwiec', duration: ''},
     {name: 'Praktyki', description: 'helpdesk / serwisant / networker', place: '123i serwis komputerów / Wołomin', year: '2022', month: 'Maj', duration: '1 miesiąc'},
