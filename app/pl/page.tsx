@@ -7,6 +7,7 @@ export default function Pl() {
     
     <section className='text-white overflow-x-hidden'>
       <head>
+        <meta name="description" content="Mam 18 lat, uczęszczam do czwartej klasy w zespole szkół nr 14 w Warszawie na kierunku informatyk. Moją pasją jest programowanie, a w szczególności tworzenie stron internetowych."/>
         <title>GuGiSeK - pasjonat branży IT</title>
       </head>
       <div>
