@@ -10,7 +10,7 @@ export default function footer({}: Props) {
         style={{ background: "url(img/footer.svg)", backgroundSize: "cover" }}
       ></div>
       <p className="bg-[#3d3d3d] text-[#707070] font-[Lexend-light] text-center pb-8 text-sm">
-        <span className="text-[10.5px]">last update - 09.04.2024</span>
+        <span className="text-[10.5px]">last update - 03.07.2024</span>
         <br></br>
         designed and build by gugisek
       </p>

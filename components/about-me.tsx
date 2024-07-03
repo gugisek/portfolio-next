@@ -6,6 +6,14 @@ type Props = {};
 export default function aboutme({}: Props) {
   const experiances = [
     {
+      name: "Technical education",
+      description: "Final result: 96%",
+      place: "Polish IT technician 351203",
+      year: "2024",
+      month: "May",
+      duration: "",
+    },
+    {
       name: "First job",
       description: "serviceman",
       place: "Jablkowy - Apple Authorized Service",
