@@ -9,38 +9,40 @@ type Props = {};
 
 export default function skills({}: Props) {
   const skills = [
-    { name: "HTML", image: "img/skills/langs/html.svg", experience: "5 years" },
-    { name: "CSS", image: "img/skills/langs/css.svg", experience: "5 years" },
-    { name: "PHP", image: "img/skills/langs/php.svg", experience: "4 years" },
+    { name: "HTML", image: "img/skills/langs/html.svg", experience: "6 years" },
+    { name: "CSS", image: "img/skills/langs/css.svg", experience: "6 years" },
+    { name: "PHP", image: "img/skills/langs/php.svg", experience: "5 years" },
     {
       name: "MySQL",
       image: "img/skills/langs/mysql.png",
-      experience: "4 years",
+      experience: "5 years",
+      //od 2020
     },
     {
       name: "JavaScript",
       image: "img/skills/langs/javascript.png",
-      experience: "3 years",
+      experience: "4 years",
     },
     {
       name: "React",
       image: "img/skills/langs/react.png",
-      experience: "1 year",
+      experience: "2 years",
+      // od 2023
     },
     {
       name: "Next.js",
       image: "img/skills/langs/next.png",
-      experience: "1 year",
+      experience: "2 years",
     },
     {
       name: "Tailwind CSS",
       image: "img/skills/langs/tailwindcss.png",
-      experience: "1 year",
+      experience: "2 years",
     },
     {
       name: "Framer Motion",
       image: "img/skills/langs/framer-motion.svg",
-      experience: "1 year",
+      experience: "2 years",
     },
   ];
 
@@ -48,48 +50,48 @@ export default function skills({}: Props) {
     {
       name: "VS Code",
       image: "img/skills/programs/vscode.png",
-      experience: "4 years",
+      experience: "5 years",
     },
     {
       name: "Adobe PremiePro",
       image: "img/skills/programs/premierepro.png",
-      experience: "4 years",
+      experience: "5 years",
     },
     {
       name: "Gimp",
       image: "img/skills/programs/gimp.png",
-      experience: "7 years",
+      experience: "8 years",
     },
     {
       name: "Figma",
       image: "img/skills/programs/figma.webp",
-      experience: "2 year",
+      experience: "3 years",
     },
     {
       name: "SkechtUp",
       image: "img/skills/programs/sketchup.png",
-      experience: "9 years",
+      experience: "10 years",
     },
     {
       name: "Ultimaker Cura",
       image: "img/skills/programs/cura.png",
-      experience: "1 year",
+      experience: "2 years",
     },
     {
       name: "Wordpress",
       image: "img/skills/programs/wordpress.png",
-      experience: "4 years",
+      experience: "5 years",
     },
-    { name: "Git", image: "img/skills/programs/git.png", experience: "1 year" },
+    { name: "Git", image: "img/skills/programs/git.png", experience: "2 years" },
     {
       name: "Github",
       image: "img/skills/programs/github2.png",
-      experience: "1 year",
+      experience: "2 years",
     },
     {
       name: "Termius",
       image: "img/skills/programs/termius.svg",
-      experience: "1 year",
+      experience: "2 years",
     },
   ];
 

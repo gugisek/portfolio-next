@@ -9,34 +9,34 @@ type Props = {};
 
 export default function skills({}: Props) {
   const skills = [
-    { name: "HTML", image: "img/skills/langs/html.svg", experience: "5 lat" },
-    { name: "CSS", image: "img/skills/langs/css.svg", experience: "5 lat" },
-    { name: "PHP", image: "img/skills/langs/php.svg", experience: "4 lata" },
+    { name: "HTML", image: "img/skills/langs/html.svg", experience: "6 lat" },
+    { name: "CSS", image: "img/skills/langs/css.svg", experience: "6 lat" },
+    { name: "PHP", image: "img/skills/langs/php.svg", experience: "5 lat" },
     {
       name: "MySQL",
       image: "img/skills/langs/mysql.png",
-      experience: "4 lata",
+      experience: "5 lat",
     },
     {
       name: "JavaScript",
       image: "img/skills/langs/javascript.png",
-      experience: "3 lata",
+      experience: "4 lata",
     },
-    { name: "React", image: "img/skills/langs/react.png", experience: "1 rok" },
+    { name: "React", image: "img/skills/langs/react.png", experience: "2 lata" },
     {
       name: "Next.js",
       image: "img/skills/langs/next.png",
-      experience: "1 rok",
+      experience: "2 lata",
     },
     {
       name: "Tailwind CSS",
       image: "img/skills/langs/tailwindcss.png",
-      experience: "1 rok",
+      experience: "2 lata",
     },
     {
       name: "Framer Motion",
       image: "img/skills/langs/framer-motion.svg",
-      experience: "1 rok",
+      experience: "2 lata",
     },
   ];
 
@@ -44,48 +44,48 @@ export default function skills({}: Props) {
     {
       name: "VS Code",
       image: "img/skills/programs/vscode.png",
-      experience: "4 lata",
+      experience: "5 lat",
     },
     {
       name: "Adobe PremiePro",
       image: "img/skills/programs/premierepro.png",
-      experience: "4 lata",
+      experience: "5 lat",
     },
     {
       name: "Gimp",
       image: "img/skills/programs/gimp.png",
-      experience: "7 lat",
+      experience: "8 lat",
     },
     {
       name: "Figma",
       image: "img/skills/programs/figma.webp",
-      experience: "2 lata",
+      experience: "3 lata",
     },
     {
       name: "SkechtUp",
       image: "img/skills/programs/sketchup.png",
-      experience: "9 lat",
+      experience: "10 lat",
     },
     {
       name: "Ultimaker Cura",
       image: "img/skills/programs/cura.png",
-      experience: "4 lata",
+      experience: "2 lata",
     },
     {
       name: "Wordpress",
       image: "img/skills/programs/wordpress.png",
-      experience: "4 lata",
+      experience: "5 lat",
     },
-    { name: "Git", image: "img/skills/programs/git.png", experience: "1 rok" },
+    { name: "Git", image: "img/skills/programs/git.png", experience: "2 lata" },
     {
       name: "Github",
       image: "img/skills/programs/github2.png",
-      experience: "1 rok",
+      experience: "2 lata",
     },
     {
       name: "Termius",
       image: "img/skills/programs/termius.svg",
-      experience: "1 rok",
+      experience: "2 lata",
     },
   ];
 

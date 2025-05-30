@@ -11,7 +11,7 @@ export default function footer({}: Props) {
       ></div>
       <p className="bg-[#3d3d3d] text-[#707070] font-[Lexend-light] text-center pb-8 text-sm">
         <span className="text-[10.5px]">
-          ostatnia aktualizacja - 03.07.2024
+          ostatnia aktualizacja - 30.05.2025
         </span>
         <br></br>
         zaprojektowane i zbudowane przez gugisek

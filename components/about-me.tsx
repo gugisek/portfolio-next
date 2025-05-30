@@ -6,6 +6,14 @@ type Props = {};
 export default function aboutme({}: Props) {
   const experiances = [
     {
+      name: "Studies",
+      description: "Mechatronics",
+      place: "Wojskowa Akademia Techniczna",
+      year: "2024",
+      month: "October",
+      duration: "still learning",
+    },
+    {
       name: "Technical education",
       description: "Final result: 96%",
       place: "Polish IT technician 351203",
@@ -19,7 +27,7 @@ export default function aboutme({}: Props) {
       place: "Jablkowy - Apple Authorized Service",
       year: "2023",
       month: "June",
-      duration: "1 year",
+      duration: "2 years",
     },
     {
       name: "Intership",
@@ -67,7 +75,7 @@ export default function aboutme({}: Props) {
       place: "Zespół szkół nr 14 w Warszawie",
       year: "2019",
       month: "September",
-      duration: "Still learning",
+      duration: "5 years",
     },
   ];
   return (
@@ -130,8 +138,7 @@ export default function aboutme({}: Props) {
           },
         }}
       >
-        I’m from Warsaw, Poland. I’m 19 year old student at technical school in
-        5’th class.
+        I’m from Warsaw, Poland. I’m 21 year old student at Wojskowa Akademia Techniczna on first year of Mechatronics.
         <br />
         <br />
         My passion is programming, specially creating websites. Also I have time

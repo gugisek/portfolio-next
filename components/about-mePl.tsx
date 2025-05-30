@@ -6,7 +6,15 @@ type Props = {};
 export default function aboutme({}: Props) {
   const experiances = [
     {
-      name: "Wykrztałcenie techniczne",
+      name: "Studia",
+      description: "Mechatronika",
+      place: "Wojskowa Akademia Techniczna",
+      year: "2024",
+      month: "Październik",
+      duration: "ciągle trwa",
+    },
+    {
+      name: "Wykształcenie techniczne",
       description: "Końcowy wynik: 96%",
       place: "Technik Informatyk 351203",
       year: "2024",
@@ -19,7 +27,7 @@ export default function aboutme({}: Props) {
       place: "Jabłkowy - Autoryzowany Serwis Apple",
       year: "2023",
       month: "Czerwiec",
-      duration: "1 rok",
+      duration: "2 lata",
     },
     {
       name: "Praktyki",
@@ -67,7 +75,7 @@ export default function aboutme({}: Props) {
       place: "Zespół szkół nr 14 w Warszawie",
       year: "2019",
       month: "Wrzesień",
-      duration: "Ciągle trwa",
+      duration: "5 lat",
     },
   ];
   return (
@@ -130,8 +138,7 @@ export default function aboutme({}: Props) {
           },
         }}
       >
-        Mam 19 lat, jestem w piątej klasie w zespole szkół nr 14 w Warszawie na
-        kierunku informatyk.
+        Mam 21 lat, jestem na pierwszym roku mechatroniki na Wojskowej Akademii Technicznej.
         <br />
         <br />
         Moją pasją jest programowanie, a w szczególności tworzenie stron
