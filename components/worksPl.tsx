@@ -34,7 +34,7 @@ export default function works({}: Props) {
       name: "RGBpc.pl",
       description:
         "<p>Gamingowy sklep, w pełni dostosowany schemat <span style='color: #7b02ff'>woocomerce</span>.</p>                <li>działające strony produktów</li>                <li>dostęne wariany produktów</li>                <li>zoomowane zdjęcia</li>                <li>nowoczesny wygląd siatki produktów </li>            <p>                Kody promocyjne oraz płatności przez <span style='color: #3013E1'>Gpay</span> i <span style='color: #000'>Apple Pay</span>                <br>                Dodatkowe płatności przez <span style='color: #35A5E4'>PayPal</span> oraz <span style='color: #BE06FF'>Stripe</span>                <br>                Różne metody dostawy w tym <span style='color: #C99612'>Paczkomat InPost</span>           </p>",
-      link: "https://www.rgbpc.pl",
+      link: "https://rgbpc.pl",
       github: "",
       image1: "rgbpc1.png",
       image2: "rgbpc4.png",

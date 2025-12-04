@@ -27,7 +27,7 @@ export default function aboutme({}: Props) {
       place: "Jabłkowy - Autoryzowany Serwis Apple",
       year: "2023",
       month: "Czerwiec",
-      duration: "2 lata",
+      duration: "2023- 2025",
     },
     {
       name: "Praktyki",

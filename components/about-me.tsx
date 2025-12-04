@@ -27,7 +27,7 @@ export default function aboutme({}: Props) {
       place: "Jablkowy - Apple Authorized Service",
       year: "2023",
       month: "June",
-      duration: "2 years",
+      duration: "2023 - 2025",
     },
     {
       name: "Intership",
