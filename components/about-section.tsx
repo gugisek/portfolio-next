@@ -40,10 +40,17 @@ export type AboutLabels = {
   filters: Record<"all" | ExperienceKind, string>;
 };
 
+export type AboutProfile = {
+  name: string;
+  photo: string;
+  github: string;
+};
+
 type Props = {
   id: string;
   labels: AboutLabels;
   experiences: Experience[];
+  profile: AboutProfile;
 };
 
 type Filter = "all" | ExperienceKind;
@@ -65,7 +72,7 @@ function useIsDesktop() {
   return isDesktop;
 }
 
-export default function AboutSection({ id, labels, experiences }: Props) {
+export default function AboutSection({ id, labels, experiences, profile }: Props) {
   const [filter, setFilter] = useState<Filter>("all");
   const [expanded, setExpanded] = useState(false);
   const isDesktop = useIsDesktop();
@@ -132,11 +139,8 @@ export default function AboutSection({ id, labels, experiences }: Props) {
           viewport={{ once: true }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
         >
-          <span className="about-in inline-flex items-center gap-3 rounded-full px-4 py-1.5 text-[11px] uppercase tracking-[0.35em] text-neutral-500">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-500" />
-            {labels.eyebrow}
-          </span>
-          <h2 className="neu-text mt-5 font-[Lexend-bold] uppercase text-5xl md:text-7xl leading-none text-[#3d3d3d]">
+          
+          <h2 className="mt-5 font-[Lexend-bold] uppercase text-5xl md:text-7xl leading-none text-[#3d3d3d]">
             {labels.heading}
           </h2>
         </motion.header>
@@ -152,7 +156,7 @@ export default function AboutSection({ id, labels, experiences }: Props) {
           >
             <div className="flex flex-col sm:flex-row lg:flex-col items-center sm:items-start lg:items-center gap-6">
               <a
-                href="https://github.com/gugisek"
+                href={profile.github}
                 target="_blank"
                 rel="noreferrer"
                 className="about-out group relative shrink-0 rounded-full w-40 h-40 md:w-44 md:h-44 lg:[@media(max-height:860px)]:w-28 lg:[@media(max-height:860px)]:h-28"
@@ -166,15 +170,15 @@ export default function AboutSection({ id, labels, experiences }: Props) {
                   transition={{ duration: 12, repeat: Infinity, ease: "linear" }}
                 />
                 <img
-                  src="img/profile.jpg"
-                  alt="Gustaw Sołdecki"
+                  src={profile.photo}
+                  alt={profile.name}
                   className="relative w-full h-full object-cover rounded-full border-[3px] border-[#e3e3e3] grayscale group-hover:grayscale-0 transition-all duration-500"
                 />
               </a>
 
               <div className="text-center sm:text-left lg:text-center">
                 <h3 className="font-[Lexend-bold] text-3xl md:text-4xl leading-tight text-[#2e2e2e]">
-                  Gustaw Sołdecki
+                  {profile.name}
                 </h3>
                 <p className="mt-1 text-neutral-600">{labels.role}</p>
                 <span className="about-in mt-3 inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-sm text-neutral-600">
@@ -211,7 +215,7 @@ export default function AboutSection({ id, labels, experiences }: Props) {
 
             <div className="mt-8 lg:[@media(max-height:860px)]:mt-6 flex flex-wrap gap-4 justify-center sm:justify-start lg:justify-center">
               <a
-                href="https://github.com/gugisek"
+                href={profile.github}
                 target="_blank"
                 rel="noreferrer"
                 className="neu-press inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-sm font-[Lexend-medium] text-[#2e2e2e]"

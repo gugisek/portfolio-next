@@ -1,8 +1,12 @@
-"use client"
+import Portfolio from '@components/portfolio'
+import { sitePortfolio } from '@lib/portfolio'
+import { readPortfolio } from '@lib/portfolio-store'
 
-import { NavBarPl, HeroPl, SkillsPl, WorksPl, ContactPl, FooterPl } from '@components'
+// read data/portfolio.json on every request, so edits from /cv_edit show up immediately
+export const dynamic = 'force-dynamic'
 
-export default function Pl() {
+export default async function Pl() {
+  const data = sitePortfolio(await readPortfolio())
   return (
     
     <section className='text-white overflow-x-clip'>
@@ -12,12 +16,7 @@ export default function Pl() {
         <link rel="icon" href="/img/faviconPL.png" />
       </head>
       <div>
-        <NavBarPl />
-        <HeroPl />
-        <SkillsPl />
-        <WorksPl />
-        <ContactPl />
-        <FooterPl />
+        <Portfolio data={data} lang="pl" />
       </div>
     </section>
   )

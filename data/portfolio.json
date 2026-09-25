@@ -1,0 +1,851 @@
+{
+  "updatedAt": "2026-09-25T16:13:21.392Z",
+  "profile": {
+    "name": "Gustaw Sołdecki",
+    "role": {
+      "en": "Web developer & Mechatronics student",
+      "pl": "Web developer i student mechatroniki"
+    },
+    "location": {
+      "en": "Warsaw, Poland",
+      "pl": "Warszawa, Polska"
+    },
+    "locationLink": "https://www.google.pl/maps/@52.2507275,21.0377675,11.34z",
+    "age": 22,
+    "email": "gugisek@gmail.com",
+    "phone": "",
+    "website": "",
+    "github": "https://github.com/gugisek",
+    "photo": "img/profile.jpg",
+    "bio": {
+      "en": "I’m from Warsaw, Poland. I’m a 22 year old student at Wojskowa Akademia Techniczna, in my second year of Mechatronics.\n\nMy passion is programming, especially creating websites. I also find time to repair electronic devices, in particular Apple iPhones.",
+      "pl": "Mam 22 lata, jestem na drugim roku mechatroniki na Wojskowej Akademii Technicznej.\n\nMoją pasją jest programowanie, a w szczególności tworzenie stron internetowych. Znajduję też czas na naprawę sprzętu elektronicznego, szczególnie upodobałem sobie naprawy sprzętu Apple."
+    },
+    "stats": [
+      {
+        "id": "st019",
+        "value": "6+",
+        "label": {
+          "en": "years of coding",
+          "pl": "lat kodowania"
+        }
+      },
+      {
+        "id": "st01a",
+        "value": "2",
+        "label": {
+          "en": "years at Apple service",
+          "pl": "lata w serwisie Apple"
+        }
+      },
+      {
+        "id": "st01b",
+        "value": "100%",
+        "label": {
+          "en": "INF-02 practical",
+          "pl": "INF-02 praktyka"
+        }
+      }
+    ],
+    "socials": [
+      {
+        "id": "so01c",
+        "name": "instagram",
+        "link": "https://www.instagram.com/gugisek_foto/"
+      },
+      {
+        "id": "so01d",
+        "name": "facebook",
+        "link": "https://www.facebook.com/gugisek.gu/"
+      },
+      {
+        "id": "so01e",
+        "name": "github",
+        "link": "https://github.com/gugisek"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "id": "exp001",
+      "kind": "education",
+      "name": {
+        "en": "Studies",
+        "pl": "Studia"
+      },
+      "place": {
+        "en": "Wojskowa Akademia Techniczna",
+        "pl": "Wojskowa Akademia Techniczna"
+      },
+      "description": {
+        "en": "Mechatronics",
+        "pl": "Mechatronika"
+      },
+      "year": "2024",
+      "month": 10,
+      "duration": {
+        "en": "still learning",
+        "pl": "ciągle trwa"
+      },
+      "current": true,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "exp002",
+      "kind": "education",
+      "name": {
+        "en": "Technical education",
+        "pl": "Wykształcenie techniczne"
+      },
+      "place": {
+        "en": "Polish IT technician 351203",
+        "pl": "Technik Informatyk 351203"
+      },
+      "description": {
+        "en": "Final result: 96%",
+        "pl": "Końcowy wynik: 96%"
+      },
+      "year": "2024",
+      "month": 5,
+      "duration": {
+        "en": "",
+        "pl": ""
+      },
+      "current": false,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "exp003",
+      "kind": "work",
+      "name": {
+        "en": "First job",
+        "pl": "Pierwsza praca"
+      },
+      "place": {
+        "en": "Jablkowy - Apple Authorized Service",
+        "pl": "Jabłkowy - Autoryzowany Serwis Apple"
+      },
+      "description": {
+        "en": "serviceman",
+        "pl": "serwisant"
+      },
+      "year": "2023",
+      "month": 6,
+      "duration": {
+        "en": "2023 - 2025",
+        "pl": "2023 - 2025"
+      },
+      "current": false,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "exp004",
+      "kind": "internship",
+      "name": {
+        "en": "Intership",
+        "pl": "Praktyki"
+      },
+      "place": {
+        "en": "Jablkowy - Apple Authorized Service",
+        "pl": "Jabłkowy - Autoryzowany Serwis Apple"
+      },
+      "description": {
+        "en": "serviceman",
+        "pl": "serwisant"
+      },
+      "year": "2023",
+      "month": 5,
+      "duration": {
+        "en": "1 month",
+        "pl": "1 miesiąc"
+      },
+      "current": false,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "exp005",
+      "kind": "certificate",
+      "name": {
+        "en": "CISCO certificate",
+        "pl": "Certyfikat CISCO"
+      },
+      "place": {
+        "en": "Cisco Computer Networking Academy",
+        "pl": "Akademia Sieci Komputerowych Cisco"
+      },
+      "description": {
+        "en": "Introduction to Cybersecurity",
+        "pl": "Wprowadzenie do Cyberbezpieczeństwa"
+      },
+      "year": "2022",
+      "month": 11,
+      "duration": {
+        "en": "",
+        "pl": ""
+      },
+      "current": false,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "exp006",
+      "kind": "internship",
+      "name": {
+        "en": "International intership",
+        "pl": "Międzynarodowe praktyki"
+      },
+      "place": {
+        "en": "Greece Leptocaria",
+        "pl": "Grecja Leptocaria"
+      },
+      "description": {
+        "en": "web developer / robot constructor",
+        "pl": "web developer / robot constructor"
+      },
+      "year": "2022",
+      "month": 10,
+      "duration": {
+        "en": "2 weeks",
+        "pl": "2 tygodnie"
+      },
+      "current": false,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "exp007",
+      "kind": "certificate",
+      "name": {
+        "en": "Professional exam",
+        "pl": "Egzamin kwalifikacyjny"
+      },
+      "place": {
+        "en": "Zespół szkół nr 14 w Warszawie",
+        "pl": "Zespół szkół nr 14 w Warszawie"
+      },
+      "description": {
+        "en": "INF-02 practical 100% / theory 96%",
+        "pl": "INF-02 praktyczny 100% / teoria 96%"
+      },
+      "year": "2022",
+      "month": 6,
+      "duration": {
+        "en": "",
+        "pl": ""
+      },
+      "current": false,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "exp008",
+      "kind": "internship",
+      "name": {
+        "en": "Intership",
+        "pl": "Praktyki"
+      },
+      "place": {
+        "en": "123i serwis komputerów / Wołomin",
+        "pl": "123i serwis komputerów / Wołomin"
+      },
+      "description": {
+        "en": "helpdesk / serviceman / networker",
+        "pl": "helpdesk / serwisant / networker"
+      },
+      "year": "2022",
+      "month": 5,
+      "duration": {
+        "en": "1 month",
+        "pl": "1 miesiąc"
+      },
+      "current": false,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "exp009",
+      "kind": "education",
+      "name": {
+        "en": "High School",
+        "pl": "Szkoła średnia"
+      },
+      "place": {
+        "en": "Zespół szkół nr 14 w Warszawie",
+        "pl": "Zespół szkół nr 14 w Warszawie"
+      },
+      "description": {
+        "en": "IT technician",
+        "pl": "technik informatyk"
+      },
+      "year": "2019",
+      "month": 9,
+      "duration": {
+        "en": "5 years",
+        "pl": "5 lat"
+      },
+      "current": false,
+      "showInCv": true,
+      "showOnSite": true
+    }
+  ],
+  "skills": [
+    {
+      "id": "skl00a",
+      "name": "HTML",
+      "image": "img/skills/langs/html.svg",
+      "years": 6,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00b",
+      "name": "CSS",
+      "image": "img/skills/langs/css.svg",
+      "years": 6,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00c",
+      "name": "PHP",
+      "image": "img/skills/langs/php.svg",
+      "years": 5,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00d",
+      "name": "MySQL",
+      "image": "img/skills/langs/mysql.png",
+      "years": 5,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00e",
+      "name": "JavaScript",
+      "image": "img/skills/langs/javascript.png",
+      "years": 4,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00f",
+      "name": "React",
+      "image": "img/skills/langs/react.png",
+      "years": 2,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00g",
+      "name": "Next.js",
+      "image": "img/skills/langs/next.png",
+      "years": 2,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00h",
+      "name": "Tailwind CSS",
+      "image": "img/skills/langs/tailwindcss.png",
+      "years": 2,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00i",
+      "name": "Framer Motion",
+      "image": "img/skills/langs/framer-motion.svg",
+      "years": 2,
+      "showInCv": true,
+      "showOnSite": true
+    }
+  ],
+  "apps": [
+    {
+      "id": "skl00j",
+      "name": "VS Code",
+      "image": "img/skills/programs/vscode.png",
+      "years": 5,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00k",
+      "name": "Adobe PremiePro",
+      "image": "img/skills/programs/premierepro.png",
+      "years": 5,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00l",
+      "name": "Gimp",
+      "image": "img/skills/programs/gimp.png",
+      "years": 8,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00m",
+      "name": "Figma",
+      "image": "img/skills/programs/figma.webp",
+      "years": 3,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00n",
+      "name": "SkechtUp",
+      "image": "img/skills/programs/sketchup.png",
+      "years": 10,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00o",
+      "name": "Ultimaker Cura",
+      "image": "img/skills/programs/cura.png",
+      "years": 2,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00p",
+      "name": "Wordpress",
+      "image": "img/skills/programs/wordpress.png",
+      "years": 5,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00q",
+      "name": "Git",
+      "image": "img/skills/programs/git.png",
+      "years": 2,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00r",
+      "name": "Github",
+      "image": "img/skills/programs/github2.png",
+      "years": 2,
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "skl00s",
+      "name": "Termius",
+      "image": "img/skills/programs/termius.svg",
+      "years": 2,
+      "showInCv": true,
+      "showOnSite": true
+    }
+  ],
+  "hardware": [
+    {
+      "id": "hw00t",
+      "name": {
+        "en": "PC",
+        "pl": "PC"
+      },
+      "image": "pc.png",
+      "imageHover": "pc2.png",
+      "experience": {
+        "en": "build and repair",
+        "pl": "budowa i naprawa"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "hw00u",
+      "name": {
+        "en": "Apple iPhone",
+        "pl": "Apple iPhone"
+      },
+      "image": "iPhone.png",
+      "imageHover": "iphone2.jpg",
+      "experience": {
+        "en": "service and repair",
+        "pl": "serwis i naprawa"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "hw00v",
+      "name": {
+        "en": "Desktop",
+        "pl": "Stanowiska"
+      },
+      "image": "desktop2.jpg",
+      "imageHover": "desktop.png",
+      "experience": {
+        "en": "project and build",
+        "pl": "projekt i budowa"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "hw00w",
+      "name": {
+        "en": "Leds RGB, aRGB",
+        "pl": "Ledy RGB, aRGB"
+      },
+      "image": "leds.jpg",
+      "imageHover": "leds3.png",
+      "experience": {
+        "en": "implementation",
+        "pl": "implementacja"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "hw00x",
+      "name": {
+        "en": "Smart home",
+        "pl": "Smart home"
+      },
+      "image": "smarthome3.png",
+      "imageHover": "smarthome2.png",
+      "experience": {
+        "en": "setting up",
+        "pl": "ustawianie"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "hw00y",
+      "name": {
+        "en": "Soldering",
+        "pl": "Lutowanie"
+      },
+      "image": "soldering2.png",
+      "imageHover": "soldering.png",
+      "experience": {
+        "en": "medium stage",
+        "pl": "średni poziom"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "hw00z",
+      "name": {
+        "en": "3D printing",
+        "pl": "Druk 3D"
+      },
+      "image": "3dprinting4.png",
+      "imageHover": "3dprinting.png",
+      "experience": {
+        "en": "entry stage",
+        "pl": "początkujący"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "hw010",
+      "name": {
+        "en": "Web and server",
+        "pl": "Sieci i serwery"
+      },
+      "image": "webserver2.png",
+      "imageHover": "webserver3.png",
+      "experience": {
+        "en": "administration",
+        "pl": "administrowanie"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj011",
+      "name": {
+        "en": "mOsiedle.pl",
+        "pl": "mOsiedle.pl"
+      },
+      "summary": {
+        "en": "Administrative web portal for housing estates with 4 access levels, a bulletin-board display mode and mobile support. 1st place (800$) in a Warsaw schools competition.",
+        "pl": "Portal administracyjny dla osiedli z 4 poziomami uprawnień, trybem tablicy ogłoszeń na dedykowanym kiosku i wersją mobilną. I miejsce w warszawskim konkursie międzyszkolnym."
+      },
+      "description": {
+        "en": "<p>                Web app for my own idea of administrative portal for <span style=\"color: #fd5959\">housing estates</span>. Created for Warsaw schools competition and <span style=\"color: #fd5959\">won 800$</span> as first place.</p>                <li>4 levels of administration</li>                <li>supports special 27inch displays as Bulletin board</li>                <li>works as mobile web app</li>                <li>suitable for annoucements, financial or docs cases</li>                ",
+        "pl": "<p>                Aplikacja internetowa dla mojego pomysłu portalu dla <span style=\"color: #fd5959\">osiedli</span>. Stworzona na Warszawski konkurs między szkolny w którym zajęła <span style=\"color: #fd5959\">pierwsze miejsce</span>.</p>                <li>4 poziomy zarządzania</li>                <li>wspiera dedykowany elektroniczny kiosk</li>                <li>działa również na telefonach</li>                <li>ogłoszenia, finanse, dokumenty</li>                "
+      },
+      "link": "https://app.mosiedle.pl",
+      "github": "",
+      "images": [
+        "mosiedle5.png",
+        "mosiedle6.png",
+        "mosiedle7.png",
+        "mosiedle8.png",
+        "mosiedle9.png",
+        "mosiedle10.png",
+        "mosiedle11.png"
+      ],
+      "technologies": {
+        "en": "HTML CSS JS PHP MySQL",
+        "pl": "HTML CSS JS PHP MySQL"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "prj012",
+      "name": {
+        "en": "EduKorepetycje",
+        "pl": "EduKorepetycje"
+      },
+      "summary": {
+        "en": "Appointment system for school tutoring: 4 user panels, configurable appointment settings, multiple schools and buildings.",
+        "pl": "System zapisów na szkolne korepetycje: 4 panele użytkowników, konfigurowalne ustawienia, obsługa wielu szkół i budynków."
+      },
+      "description": {
+        "en": "<p>                Web app for school <span style=\"color: #9233d1\">apointments</span>.</p>                <li>4 different stages of panels</li>                <li>fully customizable apointent settings</li>                <li>supports for multiple schools and buildings</li>                <li>customizable backgrounds</li>                ",
+        "pl": "<p>                Aplikacja internetowa dla szkolnych <span style=\"color: #9233d1\">korepetycji</span>.</p>                <li>4 różne panele użytkowników</li>                <li>dużo ustawień korepetycji</li>                <li>wspiera różne szkoły oraz kilka budynków</li>                <li>ustawialne tła paneli</li>                "
+      },
+      "link": "https://edukorepetycje.rgbpc.pl/",
+      "github": "https://github.com/gugisek/competition_apointments_zs14",
+      "images": [
+        "edu4.png",
+        "edu3.png",
+        "edu2.png"
+      ],
+      "technologies": {
+        "en": "HTML CSS JS PHP MySQL",
+        "pl": "HTML CSS JS PHP MySQL"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "prj013",
+      "name": {
+        "en": "RGBpc.pl",
+        "pl": "RGBpc.pl"
+      },
+      "summary": {
+        "en": "Gaming e-shop on a fully customized WooCommerce theme with product variants, promo codes, GPay / Apple Pay / PayPal / Stripe payments and InPost shipping.",
+        "pl": "Sklep gamingowy na w pełni dostosowanym WooCommerce: warianty produktów, kody rabatowe, płatności GPay / Apple Pay / PayPal / Stripe i dostawa InPost."
+      },
+      "description": {
+        "en": "<p>Gaming shop fully customized <span style='color: #7b02ff'>woocomerce</span> shematic.</p>                <li>fully working product pages</li>                <li>avaible variants</li>                <li>zooming photos</li>                <li>modernistic arhive style </li>            <p>                Promo codes and direct pay via <span style='color: #3013E1'>Gpay</span> and <span style='color: #000'>Apple Pay</span>                <br>                Working paynaments via <span style='color: #35A5E4'>PayPal</span> and <span style='color: #BE06FF'>Stripe</span>                <br>                Different shipping methods even <span style='color: #C99612'>InPost Paczkomat</span>           </p>",
+        "pl": "<p>Gamingowy sklep, w pełni dostosowany schemat <span style='color: #7b02ff'>woocomerce</span>.</p>                <li>działające strony produktów</li>                <li>dostęne wariany produktów</li>                <li>zoomowane zdjęcia</li>                <li>nowoczesny wygląd siatki produktów </li>            <p>                Kody promocyjne oraz płatności przez <span style='color: #3013E1'>Gpay</span> i <span style='color: #000'>Apple Pay</span>                <br>                Dodatkowe płatności przez <span style='color: #35A5E4'>PayPal</span> oraz <span style='color: #BE06FF'>Stripe</span>                <br>                Różne metody dostawy w tym <span style='color: #C99612'>Paczkomat InPost</span>           </p>"
+      },
+      "link": "https://rgbpc.pl",
+      "github": "",
+      "images": [
+        "rgbpc1.png",
+        "rgbpc4.png",
+        "rgbpc3.png"
+      ],
+      "technologies": {
+        "en": "HTML CSS JS PHP MySQL Wordpress Linux",
+        "pl": "HTML CSS JS PHP MySQL Wordpress Linux"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "prj014",
+      "name": {
+        "en": "praktyczny-informatyk.pl",
+        "pl": "praktyczny-informatyk.pl"
+      },
+      "summary": {
+        "en": "Tutorial website for IT technician practical exams with search, date sorting and file downloads.",
+        "pl": "Strona z poradnikami do egzaminów praktycznych technika informatyka: wyszukiwarka, sortowanie po dacie, pobieranie plików."
+      },
+      "description": {
+        "en": "<p>                Website with <span style='color: #d800ff'>tutorials</span> for practical exams for IT.            </p>                <li>working search bar</li>                <li>sorting elements by date</li>                <li>download files from server</li>            <p>                Builded on subsites and folder with elements as objects in list on site.            </p>",
+        "pl": "<p>                Strona z <span style='color: #d800ff'>poradnikami</span> do egzaminów technika informatyka.            </p>                <li>działający pasek wyszukiwania</li>                <li>sortowanie elementów po dacie</li>                <li>pobieranie plików z serwera </li>            <p>                Opiera się na podstronach oraz folderze z elementami jako obiekty na stronie.            </p>"
+      },
+      "link": "https://www.praktyczny-informatyk.pl",
+      "github": "https://github.com/gugisek/praktyczny-informatyk.pl",
+      "images": [
+        "praktyczny-informatyk.pl.png",
+        "praktyczny-informatyk.pl2.png",
+        "praktyczny-informatyk.pl3.png"
+      ],
+      "technologies": {
+        "en": "HTML CSS JS PHP",
+        "pl": "HTML CSS JS PHP"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "prj015",
+      "name": {
+        "en": "DIY laptop",
+        "pl": "DIY laptop"
+      },
+      "summary": {
+        "en": "Custom laptop chassis designed in 3D around a used ASUS board, 3D printed and covered with suede. 4 weeks of work.",
+        "pl": "Autorska obudowa laptopa zaprojektowana w 3D wokół płyty z używanego ASUS-a, wydrukowana w 3D i oklejona zamszem. 4 tygodnie pracy."
+      },
+      "description": {
+        "en": "<p>Created for personal usage from used ASUS. <br>Fully mapped phisical parts of old laptop. <br>Projected all body parts with supports and later <span style=\"color: #c1714c\">3D printed</span>.<br>On end covered with suede.</p> <br><p style=\"color: #9d9d9d\">Time spent: 4 weeks</p>",
+        "pl": "<p>Stworzony do prywatnego użytku z używanego ASUS&apos;a. <br>W pełni odwzorowane podzespoły laptopa jako obiekty 3D. <br>Zaprojektowane wszystkie części obudowy uwzględniając wsporniki, później wszystko zostało <span style=\"color: #c1714c\">wydrukowane w 3D</span>.<br>Na koniec wszystko zostało oklejone zamszem.</p> <br><p style=\"color: #9d9d9d\">Czas poświęcony: 4 tygodnie</p>"
+      },
+      "link": "",
+      "github": "",
+      "images": [
+        "laptop1.jpg",
+        "laptop2.jpg",
+        "laptop3.jpg"
+      ],
+      "technologies": {
+        "en": "sketchup Ultimaker-Cura 3D-printer",
+        "pl": "sketchup Ultimaker-Cura druk-3D"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "prj016",
+      "name": {
+        "en": "School profile page",
+        "pl": "Wizytówka dla szkoły"
+      },
+      "summary": {
+        "en": "One-page school website with Framer Motion animations, designed and built in 4 days for open days.",
+        "pl": "Jednostronicowa wizytówka szkoły z animacjami Framer Motion, zaprojektowana i zbudowana w 4 dni na dni otwarte."
+      },
+      "description": {
+        "en": "<p>Fully builded and projected by me <span style=\"color: #34ad51\">in 4 days</span> for school open days. Simple one page website with big hero section. Each element has animations from framer motion. <br/>Coded section by section. The idea for design is 100% mine.</p>",
+        "pl": "<p>W pełni zbudowane oraz zaprojektowane przeze mnie <span style=\"color: #34ad51\">w 4 dni</span> dla szkoły na dni otwarte. Prosta budowa na jednej podstronie. Każdy element ma animacje z framer motion. <br/>Pisane sekcja za sekcją. Pomysł na stronę w 100% jest mój.</p>"
+      },
+      "link": "https://zs14.praktyczny-informatyk.pl/",
+      "github": "https://github.com/gugisek/zs14-technik-inf",
+      "images": [
+        "zs14.png",
+        "zs142.png",
+        "zs143.png"
+      ],
+      "technologies": {
+        "en": "next.js react.js tailwindcss framer-motion figma",
+        "pl": "next.js react.js tailwindcss framer-motion figma"
+      },
+      "showInCv": true,
+      "showOnSite": true
+    },
+    {
+      "id": "prj017",
+      "name": {
+        "en": "PartyHub",
+        "pl": "PartyHub"
+      },
+      "summary": {
+        "en": "Figma prototype of an app for organizing local parties, with messaging and transition animations.",
+        "pl": "Prototyp w Figmie aplikacji do organizacji imprez w okolicy, z czatem i animacjami przejść."
+      },
+      "description": {
+        "en": "<p>                App for <span style='color: #ff0000'>party</span> organization in local area.            </p>                <li>fully operative prototype</li>                <li>variants for buttons</li>                <li>projected messenging function</li>                <li>transition animations</li>            <p>                Builded for easy and fast finding new people to party with. Only prototype.            </p>",
+        "pl": "<p>                Aplikacja do organizacji <span style='color: #ff0000'>imprez</span> w okolicy.            </p>                <li>w pełni operatywny prototyp</li>                <li>warianty dla przycisków</li>                <li>przewidziana funkcja czatów</li>                <li>animacje przejścia</li>            <p>               Zaprojektowane aby łatwo i szybko znajdować nowych ludzi na imprezy. Tylko prototyp.            </p>"
+      },
+      "link": "",
+      "github": "",
+      "images": [
+        "partyhub.png",
+        "partyhub2.png",
+        "partyhub3.png"
+      ],
+      "technologies": {
+        "en": "figma",
+        "pl": "figma"
+      },
+      "showInCv": false,
+      "showOnSite": true
+    },
+    {
+      "id": "prj018",
+      "name": {
+        "en": "AgencyTech.pl",
+        "pl": "AgencyTech.pl"
+      },
+      "summary": {
+        "en": "Figma prototype of an IT agency website with a customer panel, widgets and parallax sections.",
+        "pl": "Prototyp w Figmie strony agencji IT z panelem klienta, widżetami i sekcjami parallax."
+      },
+      "description": {
+        "en": "<p>                Website for tech <span style=\"color: #0097ff\">agency</span> with <span style=\"color: #0097ff\">IT</span> services.            </p>                <li>fully operative prototype</li>                <li>variants for buttons</li>                <li>projected customer panel with diffrent sections</li>                <li>widgets in client panel</li>                <li>parallax scrolling efects on sections in home page</li>",
+        "pl": "<p>                Strona dla agnecji <span style=\"color: #0097ff\">social media</span> świadczącej usługi <span style=\"color: #0097ff\">IT</span>.            </p>                <li>w pełni operatywny prototyp</li>                <li>warianty dla przycisków</li>                <li>zaprojaktowany panel klienta z różnymi sekcjami</li>                <li>widżety w panelu kienta</li>                <li>dynamiczne efekty przewijania na stronie głównej</li>"
+      },
+      "link": "",
+      "github": "",
+      "images": [
+        "at4.png",
+        "at2.png",
+        "at3.png"
+      ],
+      "technologies": {
+        "en": "figma",
+        "pl": "figma"
+      },
+      "showInCv": false,
+      "showOnSite": true
+    }
+  ],
+  "cv": {
+    "summary": {
+      "en": "",
+      "pl": ""
+    },
+    "languages": [
+      {
+        "id": "lng01f",
+        "name": {
+          "en": "Polish",
+          "pl": "Polski"
+        },
+        "level": {
+          "en": "native",
+          "pl": "ojczysty"
+        },
+        "showInCv": true
+      },
+      {
+        "id": "lng01g",
+        "name": {
+          "en": "English",
+          "pl": "Angielski"
+        },
+        "level": {
+          "en": "",
+          "pl": ""
+        },
+        "showInCv": true
+      }
+    ],
+    "interests": {
+      "en": "Web development, electronics repair, 3D printing, photography",
+      "pl": "Tworzenie stron internetowych, naprawa elektroniki, druk 3D, fotografia"
+    },
+    "clause": {
+      "en": "I hereby consent to the processing of my personal data included in this CV for the purposes of the recruitment process, in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR).",
+      "pl": "Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w niniejszym CV dla potrzeb niezbędnych do realizacji procesu rekrutacji, zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. (RODO)."
+    },
+    "showPhoto": true,
+    "showAge": false,
+    "showClause": true,
+    "showQr": true,
+    "qrUrl": {
+      "en": "https://ui.gugisek.pl/",
+      "pl": "https://ui.gugisek.pl/"
+    }
+  }
+}

@@ -1,11 +1,13 @@
 "use client"
 import AboutMePl from 'components/about-mePl'
 import { motion } from 'framer-motion'
+import { PortfolioData } from '@lib/portfolio'
 import React from 'react'
 
-type Props = {}
+type Props = { data: PortfolioData }
 
-export default function Hero({}: Props) {
+export default function Hero({ data }: Props) {
+  const firstName = data.profile.name.split(" ")[0]
   return (
     <section style={{backgroundImage: 'url(img/bg2.jpg)', backgroundPositionY:'44%', backgroundPositionX: 'center'}} className='bg-cover'>    
         <section className='min-h-screen text-neutral-900 flex justify-center items-center bg-cover flex-col' >
@@ -16,7 +18,7 @@ export default function Hero({}: Props) {
             exit={{ opacity: 0 }}
             >
                 <p className='text-2xl font-[Roboto-light]'>Cześć</p>
-                <h1 className='text-4xl'>Jestem Gustaw</h1>
+                <h1 className='text-4xl'>Jestem {firstName}</h1>
             </motion.div>
             <motion.div 
             className='absolute bottom-8 font-light'
@@ -33,7 +35,7 @@ export default function Hero({}: Props) {
                 <a href='#o-mnie' className='hover:text-white transition-all duration-300'>scrolluj w dół</a>
             </motion.div>
         </section>
-        <AboutMePl/>
+        <AboutMePl data={data}/>
     </section>
 
   )

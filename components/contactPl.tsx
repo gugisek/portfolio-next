@@ -2,15 +2,13 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { asset, formatAge, PortfolioData, t } from "@lib/portfolio";
 
-type Props = {};
+type Props = { data: PortfolioData };
 
-export default function Contact({}: Props) {
-  const socials = [
-    { name: "instagram", link: "https://www.instagram.com/gugisek_foto/" },
-    { name: "facebook", link: "https://www.facebook.com/gugisek.gu/" },
-    { name: "github", link: "https://github.com/gugisek" },
-  ];
+export default function Contact({ data }: Props) {
+  const { profile } = data;
+  const socials = profile.socials;
   return (
     <section id="kontakt" className="text-neutral-900 font-[Lexend]">
       <motion.h1
@@ -41,7 +39,7 @@ export default function Contact({}: Props) {
                 duration: 1,
               },
             }}
-            src="img/profile.jpg"
+            src={asset(profile.photo)}
             alt="profile"
             className="rounded-full shadow-2xl"
           />
@@ -84,9 +82,9 @@ export default function Contact({}: Props) {
             </div>
             <div className="flex flex-row md:gap-9 gap-2 items-center flex-wrap">
               <div>
-                <p className="m-0 p-0">22 lata</p>
+                <p className="m-0 p-0">{formatAge(profile.age, "pl")}</p>
                 <p className="text-xl font-[Lexend-bold] m-0 p-0 mt-[-6px]">
-                  Gustaw Sołdecki
+                  {profile.name}
                 </p>
               </div>
               <div className="flex flex-row items-center justify-center">
@@ -96,12 +94,12 @@ export default function Contact({}: Props) {
                   className="w-[30px] mr-3"
                 />
                 <a
-                  href="https://www.google.pl/maps/@52.2507275,21.0377675,11.34z"
+                  href={profile.locationLink}
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-gray-400 transition-all duration-300"
                 >
-                  Warszawa, Polska
+                  {t(profile.location, "pl")}
                 </a>
               </div>
             </div>
@@ -112,10 +110,10 @@ export default function Contact({}: Props) {
                 className="w-[35px] mr-3"
               />
               <a
-                href="mailto:gugisek@gmail.com"
+                href={`mailto:${profile.email}`}
                 className="hover:text-blue-400 transition-all duration-300"
               >
-                gugisek@gmail.com
+                {profile.email}
               </a>
             </div>
           </motion.div>

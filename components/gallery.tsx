@@ -104,7 +104,7 @@ export default function Gallery({ images, alt, basePath = 'img/posts/' }: Props)
         aria-label={alt}
         tabIndex={0}
         onKeyDown={onKeyDown}
-        className='group relative w-full aspect-[16/10] overflow-hidden rounded-2xl bg-neutral-200 shadow-xl ring-1 ring-black/5 outline-none focus-visible:ring-2 focus-visible:ring-neutral-500'
+        className='group relative w-full aspect-[16/10] overflow-hidden rounded-2xl bg-neutral-200 shadow-[0_4px_14px_rgba(0,0,0,0.12)] ring-1 ring-black/5 outline-none focus-visible:ring-2 focus-visible:ring-neutral-500'
       >
         <AnimatePresence initial={false} custom={direction}>
           <motion.div

@@ -28,7 +28,9 @@ export default function Post({name, description, link, github, images, image1, i
     className='flex flex-col items-center justify-center w-full'>
             <div className='flex xl:flex-row flex-col md:w-3/5 sm:w-2/3 w-full sm:px-0 px-6 gap-10 items-center justify-center mt-3'>
               <div className='xl:w-4/5 md:w-2/3 w-full max-w-[460px] flex flex-col items-center xl:justify-end justify-center'>
-                <Gallery images={gallery} alt={name} />
+                <div className="works-tray w-full rounded-[26px] p-2.5 sm:p-3 pb-1 sm:pb-1">
+                  <Gallery images={gallery} alt={name} />
+                </div>
               </div>
               <div className='flex flex-col justify-center xl:w-2/4 md:w-2/3 w-full mt-[-15px]'>
                 <h1 className='font-[Lexend-bold] text-3xl pb-3 flex items-center justify-between'>
@@ -67,7 +69,11 @@ export default function Post({name, description, link, github, images, image1, i
               
             </div>
             
-            <p className='uppercase text-center pb-7 pt-1 sm:px-0 px-6 text-sm font-[Lexend] text-[#656565]' style={{wordSpacing: '15px'}}>{technologies}</p>
+            <ul className='flex flex-wrap justify-center gap-2.5 pb-10 pt-5 sm:px-0 px-6'>
+              {technologies.split(/\s+/).filter(Boolean).map((technology) => (
+                <li key={technology} className='works-chip rounded-full px-3.5 py-1.5 uppercase text-xs tracking-wider font-[Lexend] text-[#656565]'>{technology}</li>
+              ))}
+            </ul>
           </motion.div>
   )
 }
