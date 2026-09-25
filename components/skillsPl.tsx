@@ -1,9 +1,7 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
-import Skill from "./skill";
-import Hardware from "./hardware";
+import SkillsSection from "./skills-section";
 
 type Props = {};
 
@@ -141,62 +139,22 @@ export default function skills({}: Props) {
   ];
 
   return (
-    <section className="min-h-screen text-neutral-900 bg-[#e0e0e0] bg-cover bg-fixed flex flex-col items-center justify-center">
-      <motion.div
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: 100 }}
-        transition={{ duration: 0.5 }}
-        className="w-full h-20 flex items-center justify-center sm:text-5xl text-3xl font-[Lexend-bold] uppercase text-[#4e4e4e] py-20 text-center"
-      >
-        Języki programowania jakie znam
-      </motion.div>
-      <div className="flex flex-row flex-wrap gap-8 items-center justify-center px-[10%] pb-8 max-w-[1000px]">
-        {skills.map((skill, index) => (
-          <Skill
-            key={index}
-            name={skill.name}
-            image={skill.image}
-            experience={skill.experience}
-          />
-        ))}
-      </div>
-
-      <motion.div
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: 100 }}
-        className="w-full h-20 flex items-center justify-center sm:text-5xl text-3xl font-[Lexend-bold] uppercase text-[#4e4e4e] py-20 text-center"
-      >
-        Apliacje z jakich korzystam
-      </motion.div>
-      <div className="flex flex-row flex-wrap gap-8 items-center justify-center px-[10%] pb-8 max-w-[1000px]">
-        {apps.map((app, index) => (
-          <Skill
-            key={index}
-            name={app.name}
-            image={app.image}
-            experience={app.experience}
-          />
-        ))}
-      </div>
-
-      <motion.div
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: 100 }}
-        className="w-full h-20 flex items-center justify-center sm:text-5xl text-3xl font-[Lexend-bold] uppercase text-[#4e4e4e] py-20 text-center"
-      >
-        Moje umiejętności
-      </motion.div>
-      <div className="flex flex-row flex-wrap gap-8 items-center justify-center px-[10%] pb-8 max-w-[1000px]">
-        {hardwares.map((hardware, index) => (
-          <Hardware
-            key={index}
-            name={hardware.name}
-            image={hardware.image}
-            image_hover={hardware.image_hover}
-            experience={hardware.experience}
-          />
-        ))}
-      </div>
-    </section>
+    <SkillsSection
+      labels={{
+        languages: { title: "Języki programowania, które znam", count: (n) => `${n} ${pluralPl(n, "technologia", "technologie", "technologii")}` },
+        apps: { title: "Aplikacje, z których korzystam", count: (n) => `${n} ${pluralPl(n, "aplikacja", "aplikacje", "aplikacji")}` },
+        hardware: { title: "Moje umiejętności", count: (n) => `${n} ${pluralPl(n, "obszar", "obszary", "obszarów")}` },
+      }}
+      skills={skills}
+      apps={apps}
+      hardwares={hardwares}
+    />
   );
+}
+
+function pluralPl(n: number, one: string, few: string, many: string) {
+  if (n === 1) return one;
+  const lastDigit = n % 10;
+  const lastTwo = n % 100;
+  return lastDigit >= 2 && lastDigit <= 4 && (lastTwo < 12 || lastTwo > 14) ? few : many;
 }

@@ -142,3 +142,108 @@ html {
 #slides {
   transition: opacity 0.3s ease;
 }
+
+.neu-raised {
+  background: #e0e0e0;
+  box-shadow: 14px 14px 36px #bebebe,
+             -14px -14px 36px #ffffff;
+}
+.neu-raised:hover {
+  box-shadow: 22px 22px 50px #b4b4b4,
+             -22px -22px 50px #ffffff;
+}
+
+.neu-well {
+  background: #e0e0e0;
+  box-shadow: inset 6px 6px 12px #c4c4c4,
+              inset -6px -6px 12px #fcfcfc;
+}
+.group:hover .neu-well {
+  box-shadow: inset 9px 9px 18px #bebebe,
+              inset -9px -9px 18px #ffffff;
+}
+
+.neu-track {
+  background: #e0e0e0;
+  box-shadow: inset 2px 2px 4px #bebebe,
+              inset -2px -2px 4px #ffffff;
+}
+
+.neu-pill {
+  background: #e0e0e0;
+  box-shadow: inset 3px 3px 6px #c4c4c4,
+              inset -3px -3px 6px #fcfcfc;
+}
+
+.neu-text {
+  text-shadow: 4px 4px 8px #bebebe,
+              -4px -4px 8px #ffffff;
+}
+
+/* about section: neumorphism tuned to sit on the foggy photo background */
+.about-panel {
+  background: rgba(227, 227, 227, 0.88);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.14),
+             -20px -20px 50px rgba(255, 255, 255, 0.7);
+}
+
+.about-out {
+  background: #e3e3e3;
+  box-shadow: 12px 12px 28px rgba(0, 0, 0, 0.15),
+             -12px -12px 28px rgba(255, 255, 255, 0.9);
+}
+
+.about-out-sm {
+  background: #e3e3e3;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.13),
+             -4px -4px 10px rgba(255, 255, 255, 0.95);
+}
+
+.about-in {
+  background: #e3e3e3;
+  box-shadow: inset 4px 4px 9px rgba(0, 0, 0, 0.13),
+              inset -4px -4px 9px rgba(255, 255, 255, 0.95);
+}
+
+.about-groove {
+  background: #e3e3e3;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.16),
+              inset -2px -2px 4px rgba(255, 255, 255, 0.95);
+}
+
+.about-card {
+  
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+.about-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 11px 11px 24px rgba(0, 0, 0, 0.13),
+             -11px -11px 24px rgba(255, 255, 255, 1);
+}
+
+/* raised button that sinks into the page on hover / click, like .btnMini */
+.neu-press {
+  background: #e3e3e3;
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.15),
+             -6px -6px 14px rgba(255, 255, 255, 0.95);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.neu-press:hover {
+  transform: translateY(3px);
+  box-shadow: inset 4px 4px 9px rgba(0, 0, 0, 0.15),
+              inset -4px -4px 9px rgba(255, 255, 255, 0.95);
+}
+.neu-press:active {
+  transform: translateY(4px);
+  box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.2),
+              inset -6px -6px 12px rgba(255, 255, 255, 0.95);
+}
+
+.neu-press-only:hover {
+  transform: translateY(3px);
+  box-shadow: inset 4px 4px 9px rgba(0, 0, 0, 0.15),
+              inset -4px -4px 9px rgba(255, 255, 255, 0.95);
+}

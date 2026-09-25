@@ -4,7 +4,7 @@ import { NavBar, Hero, Skills, Works, Contact, Footer } from '@components'
 
 export default function Home() {
   return (
-    <section className='text-white overflow-x-hidden'>
+    <section className='text-white overflow-x-clip'>
       <NavBar />
       <Hero />
       <Skills />

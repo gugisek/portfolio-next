@@ -1,19 +1,21 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
-import Tree from "@components/tree";
+import AboutSection, { AboutLabels, Experience } from "@components/about-section";
 type Props = {};
 export default function aboutme({}: Props) {
-  const experiances = [
+  const experiances: Experience[] = [
     {
+      kind: "education",
       name: "Studia",
       description: "Mechatronika",
       place: "Wojskowa Akademia Techniczna",
       year: "2024",
       month: "Październik",
       duration: "ciągle trwa",
+      current: true,
     },
     {
+      kind: "education",
       name: "Wykształcenie techniczne",
       description: "Końcowy wynik: 96%",
       place: "Technik Informatyk 351203",
@@ -22,14 +24,16 @@ export default function aboutme({}: Props) {
       duration: "",
     },
     {
+      kind: "work",
       name: "Pierwsza praca",
       description: "serwisant",
       place: "Jabłkowy - Autoryzowany Serwis Apple",
       year: "2023",
       month: "Czerwiec",
-      duration: "2023- 2025",
+      duration: "2023 - 2025",
     },
     {
+      kind: "internship",
       name: "Praktyki",
       description: "serwisant",
       place: "Jabłkowy - Autoryzowany Serwis Apple",
@@ -38,6 +42,7 @@ export default function aboutme({}: Props) {
       duration: "1 miesiąc",
     },
     {
+      kind: "certificate",
       name: "Certyfikat CISCO",
       description: "Wprowadzenie do Cyberbezpieczeństwa",
       place: "Akademia Sieci Komputerowych Cisco",
@@ -46,6 +51,7 @@ export default function aboutme({}: Props) {
       duration: "",
     },
     {
+      kind: "internship",
       name: "Międzynarodowe praktyki",
       description: "web developer / robot constructor",
       place: "Grecja Leptocaria",
@@ -54,6 +60,7 @@ export default function aboutme({}: Props) {
       duration: "2 tygodnie",
     },
     {
+      kind: "certificate",
       name: "Egzamin kwalifikacyjny",
       description: "INF-02 praktyczny 100% / teoria 96%",
       place: "Zespół szkół nr 14 w Warszawie",
@@ -62,6 +69,7 @@ export default function aboutme({}: Props) {
       duration: "",
     },
     {
+      kind: "internship",
       name: "Praktyki",
       description: "helpdesk / serwisant / networker",
       place: "123i serwis komputerów / Wołomin",
@@ -70,6 +78,7 @@ export default function aboutme({}: Props) {
       duration: "1 miesiąc",
     },
     {
+      kind: "education",
       name: "Szkoła średnia",
       description: "technik informatyk",
       place: "Zespół szkół nr 14 w Warszawie",
@@ -78,73 +87,37 @@ export default function aboutme({}: Props) {
       duration: "5 lat",
     },
   ];
-  return (
-    <div
-      id="o-mnie"
-      className="min-h-[60vh] flex md:flex-row flex-col items-center justify-evenly text-neutral-900 md:px-[8%] px-[5%] md:py-0 py-20"
-    >
-      <section className="w-1/3 md:block hidden overflow-y-scroll h-[30vh]">
-        {experiances.map((experiance, index) => (
-          <Tree
-            key={index}
-            name={experiance.name}
-            description={experiance.description}
-            place={experiance.place}
-            year={experiance.year}
-            month={experiance.month}
-            duration={experiance.duration}
-          />
-        ))}
-        {/* cv jeszcze dodać */}
-      </section>
-      <div className="flex justify-center items-center flex-col md:w-1/3 w-2/3">
-        <motion.a
-          initial={{ opacity: 0 }}
-          whileInView={{
-            opacity: 1,
-            transition: {
-              type: "spring",
-              duration: 1,
-            },
-          }}
-          href="https://github.com/gugisek"
-          target={"_blank"}
-        >
-          <img
-            src="img/profile.jpg"
-            alt="profile"
-            className="rounded-full grayscale hover:grayscale-0 hover:shadow-xl transition-all duration-300"
-          />
-        </motion.a>
-        <h1 className="text-2xl font-[Lexend-medium] py-2">Gustaw Sołdecki</h1>
-      </div>
-      <motion.div
-        className="md:w-1/3 w-2/3 text-xl font-[Roboto-light]"
-        initial={{ opacity: 0, x: 100 }}
-        whileInView={{
-          opacity: 1,
-          x: 0,
-          transition: {
-            type: "animate",
-            duration: 1,
-          },
-        }}
-        exit={{
-          opacity: 0,
-          x: 100,
-          transition: {
-            type: "spring",
-            duration: 1,
-          },
-        }}
-      >
-        Mam 22 lata, jestem na drugin roku mechatroniki na Wojskowej Akademii Technicznej.
-        <br />
-        <br />
-        Moją pasją jest programowanie, a w szczególności tworzenie stron
-        internetowych. Również znajduję czas na naprawę sprzetu elektronicznego
-        szczególnie upodobałem sobie naprawy sprzętu Apple.
-      </motion.div>
-    </div>
-  );
+
+  const labels: AboutLabels = {
+    eyebrow: "O mnie",
+    heading: "Kim jestem",
+    role: "Web developer i student mechatroniki",
+    location: "Warszawa, Polska",
+    bio: [
+      "Mam 22 lata, jestem na drugim roku mechatroniki na Wojskowej Akademii Technicznej.",
+      "Moją pasją jest programowanie, a w szczególności tworzenie stron internetowych. Znajduję też czas na naprawę sprzętu elektronicznego, szczególnie upodobałem sobie naprawy sprzętu Apple.",
+    ],
+    stats: [
+      { value: "6+", label: "lat kodowania" },
+      { value: "2", label: "lata w serwisie Apple" },
+      { value: "100%", label: "INF-02 praktyka" },
+    ],
+    github: "GitHub",
+    contact: "Napisz do mnie",
+    contactHref: "#kontakt",
+    timelineTitle: "Doświadczenie i edukacja",
+    timelineSubtitle: "Wszystko, co mnie do tej pory ukształtowało",
+    now: "Teraz",
+    showMore: (hidden) => `Pokaż więcej (${hidden})`,
+    showLess: "Pokaż mniej",
+    filters: {
+      all: "Wszystko",
+      work: "Praca",
+      internship: "Praktyki",
+      education: "Edukacja",
+      certificate: "Certyfikaty",
+    },
+  };
+
+  return <AboutSection id="o-mnie" labels={labels} experiences={experiances} />;
 }
