@@ -138,12 +138,12 @@ export default function aboutme({}: Props) {
           },
         }}
       >
-        Mam 21 lat, jestem na pierwszym roku mechatroniki na Wojskowej Akademii Technicznej.
+        Mam 22 lata, jestem na drugin roku mechatroniki na Wojskowej Akademii Technicznej.
         <br />
         <br />
         Moją pasją jest programowanie, a w szczególności tworzenie stron
         internetowych. Również znajduję czas na naprawę sprzetu elektronicznego
-        szczególnie upodobałem sobie naprawy sprzętu appla.
+        szczególnie upodobałem sobie naprawy sprzętu Apple.
       </motion.div>
     </div>
   );

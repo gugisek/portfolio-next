@@ -138,11 +138,11 @@ export default function aboutme({}: Props) {
           },
         }}
       >
-        I’m from Warsaw, Poland. I’m 21 year old student at Wojskowa Akademia Techniczna on first year of Mechatronics.
+        I’m from Warsaw, Poland. I’m 22 year old student at Wojskowa Akademia Techniczna on second year of Mechatronics.
         <br />
         <br />
         My passion is programming, specially creating websites. Also I have time
-        to repairing electronic devices, in particular apple iphones.
+        to repairing electronic devices, in particular Apple iPhones.
       </motion.div>
     </div>
   );
